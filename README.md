@@ -1,2 +1,1 @@
-# translations
-Additional Translations for Luadch
+# Additional Translations for Luadch

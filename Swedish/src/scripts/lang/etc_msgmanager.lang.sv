@@ -14,8 +14,8 @@
     msg_notfound = "Hittade inte användaren.",
     msg_isbot = "Användaren är en bot.",
 
-    msg_block = "Meddelandehanterare: Blockera användaren: %s  |  Läge: %s",
-    msg_unblock = "Meddelandehanterare: Avblockera användaren: %s",
+    msg_block = "Meddelandehanterare: Blockerat användaren: %s  |  Läge: %s",
+    msg_unblock = "Meddelandehanterare: Avblockerat användaren: %s",
 
     msg_report_block = "Meddelandehanterare:  %s  har blockerat användaren: %s  |  Läge: %s",
     msg_report_unblock = "Meddelandehanterare:  %s  har avblockerat användaren: %s",

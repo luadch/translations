@@ -18,6 +18,7 @@
     
     Registrerad av: %s
     Registrerad sedan: %s
+    Beskrivning: %s
     
     Sågs senast: %s
     

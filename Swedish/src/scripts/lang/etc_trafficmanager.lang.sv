@@ -10,11 +10,12 @@
     
     msg_denied = "Du har inte behörighet att använda detta kommando.",
     msg_god = "Du har inte behörighet att blockera denna användaren.",
-    msg_notonline = "Användaren är inte ansluten.",
+    msg_notonline = "Användaren är frånkopplad.",
     msg_notfound = "Hittade inte användaren.",
     msg_stillblocked = "Användaren är redan automatiskt blockerad via sin åtkomstnivån.",
-    msg_block = "Trafikhanterare: Blockera användaren: %s  |  Läge: %s",
-    msg_unblock = "Trafikhanterare: Avblockera användaren: %s",
+    msg_isbot = "Användaren är en bot.",
+    msg_block = "Trafikhanterare: Blockerat användaren: %s  |  Läge: %s",
+    msg_unblock = "Trafikhanterare: Avblockerat användaren: %s",
     msg_op_report_block = "Trafikhanterare:  %s  har blockerat användaren: %s  |  Läge: %s",
     msg_op_report_unblock = "Trafikhanterare:  %s  har avblockerat användaren: %s",
 
@@ -97,8 +98,8 @@
 
 Användning:
 
- [+!#]trafficmanager block ds <ANVÄNDARNAMN>  -- blockerar nedladdningar (d) och sök (s)
- [+!#]trafficmanager block dus <ANVÄNDARNAMN>  -- blockerar nedladdningar (d), uppladdningar (u) och sök (s)
+ [+!#]trafficmanager block ds <ANVÄNDARNAMN>  -- blockerar nedladdningar ( d ) och sök ( s )
+ [+!#]trafficmanager block dus <ANVÄNDARNAMN>  -- blockerar nedladdningar ( d ), uppladdningar ( u ) och sök ( s )
  [+!#]trafficmanager unblock <ANVÄNDARNAMN>  -- avblockerar användaren
  [+!#]trafficmanager show settings  -- visar inställningar från "cfg/cfg.tbl"
  [+!#]trafficmanager show blocks  -- visar alla blockerade användare och deras blockeringläge

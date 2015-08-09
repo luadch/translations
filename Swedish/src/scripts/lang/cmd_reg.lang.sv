@@ -4,7 +4,7 @@
     msg_import = "Ett fel uppstog vid importering av tilläggsmodul.",
     msg_report = "Användaren %s registrerade %s med åtkomstnivå %d [ %s ]",
     msg_level = "Du har inte behörighet att registrera på denna åtkomstnivå.",
-    msg_usage = "Användning: +reg nick <ANVÄNDARNAMN> <ÅTKOMSTNIVÅ>",
+    msg_usage = "Användning: [+!#]reg nick <ANVÄNDARNAMN> <ÅTKOMSTNIVÅ> [<BESKRIVNING>]",
     msg_error = "Ett fel uppstod: ",
     msg_ok = "Användare registrerades med följande  parametrar: Användarnamn: %s | Lösenord: %s | Åtkomstnivå: %s [ %s ]",
     msg_accinfo = [[
@@ -25,7 +25,7 @@
         ]],
 
     help_title = "cmd_reg.lua",
-    help_usage = "[+!#]reg nick <ANVÄNDARNAMN> <ÅTKOMSTNIVÅ>",
+    msg_usage = "[+!#]reg nick <ANVÄNDARNAMN> <ÅTKOMSTNIVÅ> [<BESKRIVNING>]",
     help_desc = "Registrera en ny användare",
 
     ucmd_menu_ct1_1 = "Användare",
@@ -35,6 +35,7 @@
     ucmd_passwort = "Lösenord:",
     ucmd_level = "Åtkomstnivå:",
     ucmd_nick = "Användarnamn:",
+    ucmd_desc = "Beskrivning (valfritt):",
     
     msg_blacklist1 = "Fel: Denna användaren är svartlistad!",
     msg_blacklist2 = "Anledning: ",

@@ -3,7 +3,7 @@ lang.pics = {}
 
 lang.help_title = "cmd_ascii.lua"
 lang.help_usage = "[+!#]ascii <NAMN>"
-lang.help_desc = "Visar en <ASCII-BILD> i huvudchatten; Lista alla bilderna: "
+lang.help_desc = "Visar en <ASCII-BILD> i huvudchatten; Lista över alla bilderna: "
 lang.help_err = "Kunde inte hitta bilden"
 
 lang.ucmd_menu =  { "Allmänt", "Ascii" }

@@ -3,7 +3,7 @@
     msg_denied = "Du har inte behörighet att använda detta kommando.",
     msg_usage = "Användning: [+!#]userinfo sid|nick|cid <SID>|<ANVÄNDARNAMN>|<CID>",
     msg_off = "Hittade inte användaren.",
-    msg_god = "Målanvändaren har en högre åtkomstnivå än dig",
+    msg_god = "Användaren har en högre åtkomstnivå än vad du har",
     
     msg_years = " år, ",
     msg_days = " dagar, ",

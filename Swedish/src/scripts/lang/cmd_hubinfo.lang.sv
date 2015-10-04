@@ -26,6 +26,7 @@
         ADC-port:    %s
         ADCS-port:    %s
         Använder SSL:  %s
+        TLS-läge:  %s
         Använder keyprint:          %s
         Keyprint:    %s
 

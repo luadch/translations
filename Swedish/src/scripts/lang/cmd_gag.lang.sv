@@ -1,7 +1,7 @@
 ﻿return {
 
     msg_denied = "Du har inte behörighet att använda detta kommando.",
-    msg_usage =  "Användning: [+!#]gag mute|kennylize|ungag|show",
+    msg_usage =  "Användning: [+!#]gag mute|kennylize|ungag|show <ANVÄNDARNAMN>",
     msg_off = "Användaren hittades inte eller är inte registrerad.",
     msg_god = "Du har inte behörighet att sätta gag på denna Användare.",
 
@@ -25,7 +25,7 @@ Kennylized användare: (%s)
     msg_user_restriction_removed = "Dina pratbegränsningar är borttagna.",
 
     help_title = "cmd_gag.lua",
-    help_usage = "[+!#]gag mute|kennylize|ungag|show",
+    help_usage = "[+!#]gag mute|kennylize|ungag|show <NICK>",
     help_desc = "Tysta, kennyzlize eller ungag en användare; eller bara visa vilka som är begränsade användare",
 
     ucmd_nick = "Användarnamn:",

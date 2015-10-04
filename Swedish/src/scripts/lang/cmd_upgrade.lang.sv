@@ -6,6 +6,7 @@
     msg_reg = "Användaren är inte registrerad eller så är det en bot.",
     msg_out = "%s  ändrade  %s  från åtkomstnivå: %s [ %s ]  till:  %s [ %s ]",
     msg_out_2 = "%s  med åtkomstnivå:  %s [ %s ]  har försökt ändra  %s  till:  %s [ %s ]",
+    msg_same = "Användaren har redan denna åtkomsnivå, inga ändringar behöver göras.",
 
     help_title = "cmd_upgrade.lua",
     help_usage = "[+!#]upgrade sid|nick|cid <SID>|<ANVÄNDARNAMN>|<CID> <ÅTKOMSTNIVÅ>",

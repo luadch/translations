@@ -1,26 +1,26 @@
 ﻿return {
 
-    client_mode_a = "M:A ( aktiv )",
-    client_mode_p = "M:P ( passiv )",
-    client_ssl_n = "NEJ ( aktivera gärna det! )",
-    client_ssl_y = "JA",
+    client_mode_a = "aktiv",
+    client_mode_p = "passiv",
+    client_ssl_n = "nej ( aktivera gärna det! )",
+    client_ssl_y = "ja",
 
-    msg_ccpm_1 = "JA ( aktiverat för din åtkomstnivå )",
-    msg_ccpm_2 = "JA ( inaktiverat för din åtkomstnivå )",
-    msg_ccpm_3 = "NEJ",
-    
+    msg_ccpm_1 = "ja ( aktiverat för din åtkomstnivå )",
+    msg_ccpm_2 = "ja ( inaktiverat för din åtkomstnivå )",
+    msg_ccpm_3 = "nej",
+
     msg_years = " år, ",
     msg_days = " dagar, ",
     msg_hours = " timmar, ",
     msg_minutes = " min, ",
     msg_seconds = " sek",
-    
-    msg_unknown = "<okänt>",
+
+    msg_unknown = "<OKÄND>",
 
     msg_info_1 = [[
 
 
-=== ANVÄNDARENS INLOGGNINGSINFO  ============================
+=== ANVÄNDARENS INLOGGNINGSINFO ==============================
 
         Användarnamn:	%s
         IP-adress:	%s
@@ -33,17 +33,20 @@
 
         Registrerad av:	%s
         Registrerad den:	%s
-        
+
         Senast inloggad:  %s
 
-============================ ANVÄNDARENS INLOGGNINGSINFO  ===
+        TLS-läge:   %s
+        TLS-cipher:  %s
+
+============================== ANVÄNDARENS INLOGGNINGSINFO ===
    ]],
 
 
     msg_info_2 = [[
 
 
-=== ANVÄNDARENS INLOGGNINGSINFO  ============================
+=== ANVÄNDARENS INLOGGNINGSINFO ==============================
 
         Användarnamn:	%s
         IP-adress:	%s
@@ -56,13 +59,15 @@
 
         Registrerad av:	%s
         Registrerad den:	%s
-        
+
         Senast inloggad:  %s
 
+        TLS-läge:   %s
+        TLS-cipher:  %s
 
         Hubbversion:	%s
 
-============================ ANVÄNDARENS INLOGGNINGSINFO  ===
+============================== ANVÄNDARENS INLOGGNINGSINFO ===
    ]],
 
 }

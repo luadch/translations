@@ -6,8 +6,8 @@
 
     help_title2 = "etc_trafficmanager.lua - Owners",
     help_usage2 = "[+!#]trafficmanager block ds <ANVÄNDARNAMN>|block dus <ANVÄNDARNAMN>|unblock <ANVÄNDARNAMN>",
-    help_desc2 = "Blockerar nedladdningar (d) och sök (s) | Blockerar nedladdningar (d), uppladdningar (u) och sök (s) | Avblockerar användaren",
-    
+    help_desc2 = "Blockerar nedladdningar ( d ) och sök ( s ) | Blockerar nedladdningar ( d ), uppladdningar ( u ) och sök ( s ) | Avblockerar användaren",
+
     msg_denied = "Du har inte behörighet att använda detta kommando.",
     msg_god = "Du har inte behörighet att blockera denna användaren.",
     msg_notonline = "Användaren är frånkopplad.",
@@ -18,6 +18,7 @@
     msg_unblock = "Trafikhanterare: Avblockerat användaren: %s",
     msg_op_report_block = "Trafikhanterare:  %s  har blockerat användaren: %s  |  Läge: %s",
     msg_op_report_unblock = "Trafikhanterare:  %s  har avblockerat användaren: %s",
+    msg_autoblock = "Användaren har automatiskt blivit blockerad av ett script.",
 
     ucmd_menu_ct1_1 = { "Hubb", "etc", "Trafikhanterare", "visa inställningar" },
     ucmd_menu_ct1_2 = { "Hubb", "etc", "Trafikhanterare", "visa blockerade användare" },
@@ -79,6 +80,7 @@
          Blockera sökningar:  %s
 
    Skicka rapport till blockerade användare när de ansluter:  %s
+   Skicka rapport till blockerade användare på timer:  %s
 
          Visa i Huvudfönstret:  %s
          Visa i PM:  %s

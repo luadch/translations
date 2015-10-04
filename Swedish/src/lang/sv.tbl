@@ -1,6 +1,6 @@
 ﻿local sv = { }
 
-sv.hub_login_message = "Denna server använder %s %s (Drifttid: %d dagar, %d timmar, %d minuter, %d sekunder)"
+sv.hub_login_message = "Denna server använder %s %s %s (Drifttid: %d dagar, %d timmar, %d minuter, %d sekunder)"
 sv.hub_nick_or_cid_taken = "Användarnamn/CID används redan."
 sv.hub_hub_is_full = "Hubben är full."
 sv.hub_no_base_support = "Din klient stöder inte BASE."

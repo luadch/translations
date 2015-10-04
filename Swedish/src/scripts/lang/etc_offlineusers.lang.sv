@@ -12,7 +12,7 @@
     ucmd_menu_auto_clean = { "Hubb", "etc", "Frånkopplade", "Automatisk rensning", "Rensning" },
     ucmd_menu_showsettings = { "Hubb", "etc", "Frånkopplade", "Visa inställningar" },
     ucmd_menu_help = { "Hubb", "etc", "Frånkopplade", "Hjälp" },
-    
+
     --settings--
     ucmd_menu_set_check_below = { "Hubb", "etc", "Frånkopplade", "Inställningar", "Manuell rensning", "Ställ in högsta åtkomstnivå för kontroll" },
     ucmd_menu_set_max_offlinedays_manual = { "Hubb", "etc", "Frånkopplade", "Inställningar", "Manuell rensning", "Max antal frånkopplade dagar" },
@@ -32,7 +32,7 @@
 
     -- error msgs --
     help_err = "Du har inte behörighet att använda detta kommando.",
-    help_err_wrong_id = "\n\t\t Du har angivit en eller flera felaktiga parametrar, prova någon av dessa: \n\n\t\t %s \n\t\t %s ",
+    help_err_wrong_id = "Du har angivit en eller flera felaktiga parametrar, prova någon av dessa:  \n\n %s \n\n %s ",
     help_err_in = "Användaren  %s  är redan skyddad",
     help_err_out = "Användaren  %s  är inte skyddad.",
     help_err_off = "Kunde inte hitta användaren %s.",
@@ -47,14 +47,16 @@
     delete_errorprotect = "Användaren  %s  är skyddad.",
     showdeletedmsg = "\n\nAlla användare som blivit borttagna: \n[Användarnamn] [Lösenord] [Atkomstnivå] [Datum] ",
     changesettingsmsg = "%s  har blivit ändrad till  %s",
-    showsettingsmsgprt1 = "\n\nInställningar: \n\tMaximalt antal frånkopplade dagar per åtkomstnivå för AUTOMATISK rensning:\n\t Full automatisk rensning: %s\n\t",													
-    showsettingsmsgprt2 = " Åtkomstnivå %s: %s dagar\n\t",                                                  
-    showsettingsmsgprt3 = "\n\tInställning för MANUELL rensning:\n\t Antal frånkopplade dagar: %s\n\t".." Kontrollera alla användare under åtkomstnivå: %s\n",                                                    
+    showsettingsmsgprt1 = "\n\nInställningar: \n\tMaximalt antal frånkopplade dagar per åtkomstnivå för AUTOMATISK rensning:\n\t Full automatisk rensning: %s\n\t",
+    showsettingsmsgprt2 = " Åtkomstnivå %s: %s dagar\n\t",
+    showsettingsmsgprt3 = "\n\tInställning för MANUELL rensning:\n\t Antal frånkopplade dagar: %s\n\t".." Kontrollera alla användare under åtkomstnivå: %s\n",
     tableheader = "[ # ]\t[ användarnamn ]\t\t[ åtkomstnivå ]\t[ namn på åtkomstnivå ]\t[ har varit ansluten ]\t[ skyddad ]\t[ tid frånkopplad ]",
-    
+    addedby = " | tillagd av: ",
+    neverbeenonline = "Användaren har aldrig varit inloggad",
+
     helpmsg = [[
-    
-    
+
+
                     En överblick av alla parametrar av "etc_offlineuser.lua"
                         Usage: [+!#]offline <parameter> <ytterligare parametrar>
                         - med parametern 'show' får du en tabell över alla användarna som varit frånkopplade under en viss tidsperiod
@@ -70,6 +72,6 @@
                             'maxlvl' ställer du in den högsta åtkomstnivån för getofflineusers( )
                             'days' du anger maximalt antal dagar det går att vara frånkopplad för getofflineusers( )
                         - med parametern 'help' visas detta meddelande
-                    ]],	
+                    ]],
 
 }

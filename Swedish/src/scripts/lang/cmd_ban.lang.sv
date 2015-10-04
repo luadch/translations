@@ -1,14 +1,14 @@
 ﻿return {
 
-    help_title = "cmd_ban.lua",
-    help_usage = "[+!#]ban sid|nick|cid <SID>|<ANVÄNDARNAMN>|<CID> [<TID> <ANLEDNING>] / [+!#]ban show|clean",
+    help_title = "cmd_ban.lua - Ban",
+    help_usage = "[+!#]ban sid|nick|cid <SID>|<ANVÄNDARNAMN>|<CID> [<TID> <ANLEDNING>] / [+!#]ban show|clear",
     help_desc = "Bannar användarna; <TID> är hur många minuter; negativa värden innebär permanent bann",
-    
+
     msg_denied = "Du har inte behörighet att använda detta kommando.",
     msg_notint = "Det är inte tillåtet att använda decimaltal för banntid.",
     msg_import = "Ett fel uppstog vid importering av tilläggsmodul.",
     msg_reason = "Ingen anledning.",
-    msg_usage = "Usage: [+!#]ban sid|nick|cid|ip <SID>|<ANVÄNDARNAMN>|<CID>|<IP> [<TID> <ANLEDNING>] / [+!#]ban show|clean",
+    msg_usage = "Usage: [+!#]ban sid|nick|cid|ip <SID>|<ANVÄNDARNAMN>|<CID>|<IP> [<TID> <ANLEDNING>] / [+!#]ban show|clear",
     msg_off = "Hittade inte användaren.",
     msg_god = "Du kan inte banna en användare med högre åtkomstnivå än vad du själv har.",
     msg_bot = "Användaren är en bot.",
@@ -17,7 +17,7 @@
     msg_ban_added = "%s:  %s blev bannad av  %s",
     msg_ban_attempt = "Användaren  %s  med en lägre åtkomstnivå än dig försökte banna dig. Anledning: %s",
     msg_clean_bans = "Bantabellen har rensats av: ",
-    
+
     msg_days = " dagar, ",
     msg_hours = " timmar, ",
     msg_minutes = " minuter, ",
@@ -37,17 +37,17 @@
     ucmd_menu11 = { "Användare", "Kontroll", "Ban", "efter IP" },
     ucmd_menu12 = { "Användare", "Kontroll", "Ban", "visa bans" },
     ucmd_menu13 = { "Användare", "Kontroll", "Ban", "rensa bans" },
-    
-    ucmd_time = "Tid i minuter",
+
+    ucmd_time = "Tid i minuter (standard: %s)",
     ucmd_reason = "Anledning",
-    
+
     lblNick = " Användarnamn:       ",
     lblCid = " CID:        ",
     lblIp = " IP:           ",
     lblReason = " Anledning:  ",
     lblBy = " Bannad av: ",
     lblTime = " Bannad till: ",
-    
+
     msg_out = [[
 
 
@@ -55,5 +55,21 @@
 %s
 ===================================================================================== BANNINGAR ===
   ]],
+
+    help_title2 = "cmd_ban.lua - Unban",
+    help_usage2 = "[+!#]unban ip|nick|cid <IP>|<ANVÄNDARNAMN>|<CID>",
+    help_desc2 = "Unbannar användare efter IP, ANVÄNDARNAMN eller CID",
+
+    msg_usage2 = "Användning: [+!#]unban ip|nick|cid <IP>|<användarnamn>|<CID>",
+    msg_god2 =  "Du har inte behörighet att ta bort användarens bann.",
+    msg_ok2 = "Användaren %s tog bort bannen på %s.",
+
+    ucmd_menu_ct1_1 = { "Användare", "Kontroll", "Unban", "efter NICK" },
+    ucmd_menu_ct1_2 = { "Användare", "Kontroll", "Unban", "efter CID" },
+    ucmd_menu_ct1_3 = { "Användare", "Kontroll", "Unban", "efter IP" },
+
+    ucmd_ip = "IP-adress:",
+    ucmd_cid = "CID:",
+    ucmd_nick = "Användarnamn:",
 
 }

@@ -1,8 +1,8 @@
 ﻿return {
 
     help_title = "cmd_myip.lua",
-    help_usage = "[+!#]myip",
-    help_desc = "Visar din IP-adress",
+    help_usage = "[+!#]myip [<ANVÄNDARNAMN>]",
+    help_desc = "Visar IP-adressen på en användare eller på dig själv",
 
     ucmd_menu_ct1 = { "Om dig", "visa IP" },
     ucmd_menu_ct2 = { "Visa", "IP" },

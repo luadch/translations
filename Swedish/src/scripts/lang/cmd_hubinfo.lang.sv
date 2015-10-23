@@ -12,7 +12,7 @@
     msg_hours = " timmar, ",
     msg_minutes = " minuter, ",
     msg_seconds = " sekunder",
-    msg_unknown = "<OKÄND>",
+    msg_unknown = "<OKÄNT>",
 
     msg_out = [[
 

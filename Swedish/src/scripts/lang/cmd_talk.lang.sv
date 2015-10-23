@@ -2,7 +2,7 @@
 
     help_title = "cmd_talk.lua",
     help_usage = "[+!#]talk <MEDDELANDE>",
-    help_desc = "Prata i huvudchatten utan användarnamn",
+    help_desc = "Prata utan användarnamn",
 
     msg_denied = "Du har inte behörighet att använda detta kommando.",
     ucmd_menu = { "Användare", "Meddelande", "Prata" },

@@ -11,7 +11,7 @@
     msg_minutes = " min, ",
     msg_seconds = " sek",
 
-    msg_unknown = "<OKÄND>",
+    msg_unknown = "<OKÄNT>",
     msg_userinfo = [[
 
     

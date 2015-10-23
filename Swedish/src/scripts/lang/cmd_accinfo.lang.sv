@@ -5,7 +5,7 @@
     msg_off = "Användaren hittades inte eller är inte registrerad.",
     msg_god = "Du har inte behörighet att använda detta kommando eller så har användare högre åtkomstnivå än dig.",
 
-    msg_unknown = "<OKÄND>",
+    msg_unknown = "<OKÄNT>",
     msg_online = "användaren är ansluten",
     msg_accinfo = [[
 

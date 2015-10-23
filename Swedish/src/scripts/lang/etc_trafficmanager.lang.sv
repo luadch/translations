@@ -11,7 +11,7 @@
     msg_denied = "Du har inte behörighet att använda detta kommando.",
     msg_god = "Du har inte behörighet att blockera denna användaren.",
     msg_notonline = "Användaren är frånkopplad.",
-    msg_notfound = "Hittade inte användaren.",
+    msg_notfound = "Användaren är inte blockerad.",
     msg_stillblocked = "Användaren är redan automatiskt blockerad via sin åtkomstnivån.",
     msg_isbot = "Användaren är en bot.",
     msg_block = "Trafikhanterare: Blockerat användaren: %s  |  Läge: %s",

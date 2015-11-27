@@ -4,7 +4,7 @@
     msg_import = "Ett fel uppstog vid importering av tilläggsmodul.",
     msg_report = "Användaren %s registrerade %s med åtkomstnivå %d [ %s ]",
     msg_level = "Du har inte behörighet att registrera på denna åtkomstnivå.",
-    msg_usage = "Usage: [+!#]reg nick <ANVÄNDARNAMN> <ÅTKOMSTNIVÅ> [<KOMMENTAR>] / [+!#]reg desc <ANVÄNDARNAMN> <KOMMENTAR>",
+    msg_usage = "Användning: [+!#]reg nick <ANVÄNDARNAMN> <ÅTKOMSTNIVÅ> [<KOMMENTAR>] / [+!#]reg desc <ANVÄNDARNAMN> <KOMMENTAR> (en tom rad tar bort nuvarande kommentar)",
     msg_error = "Ett fel uppstod: ",
     msg_ok = "Användare registrerades med följande  parametrar: Användarnamn: %s | Lösenord: %s | Åtkomstnivå: %s [ %s ]",
     msg_accinfo = [[
@@ -25,7 +25,7 @@
         ]],
 
     help_title = "cmd_reg.lua",
-    help_usage = "[+!#]reg nick <ANVÄNDARNAMN> <ÅTKOMSTNIVÅ> [<KOMMENTAR>] / [+!#]reg desc <ANVÄNDARNAMN> <KOMMENTAR>",
+    help_usage = "[+!#]reg nick <ANVÄNDARNAMN> <ÅTKOMSTNIVÅ> [<KOMMENTAR>] / [+!#]reg desc <ANVÄNDARNAMN> <KOMMENTAR> (en tom rad tar bort nuvarande kommentar)",
     help_desc = "Registrera en ny användare / lägga till en kommentar på en befintlig användare",
 
     ucmd_menu_ct1_1 = "Användare",

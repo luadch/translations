@@ -21,7 +21,7 @@ Kennylized användare: (%s)
     msg_remove_user = "Användare %s blev ungagged av %s",
     msg_error_in = "Användaren är redan gagged, ta bort detta innan du lägger till ännu en.",
     msg_error_out = "Användare %s har inga begränsningar på sig.",
-    msg_user_restriction_added = "Användaren har blivit gagged med: %s",
+    msg_user_restriction_added = "Du har blivit tystad med typen: %s",
     msg_user_restriction_removed = "Dina pratbegränsningar är borttagna.",
 
     help_title = "cmd_gag.lua",

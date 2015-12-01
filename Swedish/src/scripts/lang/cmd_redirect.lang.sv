@@ -12,7 +12,8 @@
     msg_redirect = "Användaren: %s  har omdirigerats till: %s",
     msg_report_redirect = "%s  har omdirigerat användaren: %s  till: %s",
 
-    ucmd_menu_ct2_1 = { "Omdirigera", "OK" },
+    ucmd_menu_ct2_1 = { "Omdirigera", "standard URL" },
+    ucmd_menu_ct2_2 = { "Omdirigera", "egen URL" },
     ucmd_url = "URL för omdirigering:",
 
     msg_report = "Användaren  %s  med åtkomstnivå  %s [ %s ]  blev automatiskt omdirigerad till: %s",

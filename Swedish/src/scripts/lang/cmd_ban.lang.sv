@@ -1,7 +1,7 @@
 ﻿return {
 
     help_title = "cmd_ban.lua - Ban",
-    help_usage = "[+!#]ban sid|nick|cid <SID>|<ANVÄNDARNAMN>|<CID> [<TID> <ANLEDNING>] / [+!#]ban show|clear",
+    help_usage = "[+!#]ban sid|nick|cid <SID>|<ANVÄNDARNAMN>|<CID> [<TID> <ANLEDNING>] / [+!#]ban show|showhis|clear|clearhis",
     help_desc = "Bannar användarna; <TID> är hur många minuter; negativa värden innebär permanent bann",
 
     msg_denied = "Du har inte behörighet att använda detta kommando.",
@@ -17,6 +17,7 @@
     msg_ban_added = "%s:  %s blev bannad av  %s",
     msg_ban_attempt = "Användaren  %s  med en lägre åtkomstnivå än dig försökte banna dig. Anledning: %s",
     msg_clean_bans = "Bantabellen har rensats av: ",
+    msg_clean_banhistory = "Bannhistoriken rensades av: ",
 
     msg_days = " dagar, ",
     msg_hours = " timmar, ",
@@ -35,8 +36,10 @@
     ucmd_menu9 = { "Användare", "Kontroll", "Ban", "efter NICK" },
     ucmd_menu10 = { "Användare", "Kontroll", "Ban", "efter CID" },
     ucmd_menu11 = { "Användare", "Kontroll", "Ban", "efter IP" },
-    ucmd_menu12 = { "Användare", "Kontroll", "Ban", "visa bans" },
-    ucmd_menu13 = { "Användare", "Kontroll", "Ban", "rensa bans" },
+    ucmd_menu12 = { "Användare", "Kontroll", "Ban", "visa", "bans" },
+    ucmd_menu13 = { "Användare", "Kontroll", "Ban", "rensa", "bans" },
+    ucmd_menu14 = { "Användare", "Kontroll", "Ban", "visa", "bannhistorik" },
+    ucmd_menu15 = { "Användare", "Kontroll", "Ban", "rensa", "bannhistorik" },
 
     ucmd_time = "Tid i minuter (standard: %s)",
     ucmd_reason = "Anledning",
@@ -48,12 +51,27 @@
     lblBy = " Bannad av: ",
     lblTime = " Bannad till: ",
 
+    msg_his_nick = "Användarnamn: ",
+    msg_his_ban = "Bann #",
+    msg_his_date = "Datum: ",
+    msg_his_bantime = "Banntid: ",
+    msg_his_reason = "Anledning: ",
+    msg_his_by = "Bannad av: ",
+
     msg_out = [[
 
 
 === BANNINGAR =====================================================================================
 %s
 ===================================================================================== BANNINGAR ===
+  ]],
+
+    msg_out2 = [[
+
+
+=== BANNHISTORIK ===============================================================================
+%s
+=============================================================================== BANNHISTORIK ===
   ]],
 
     help_title2 = "cmd_ban.lua - Unban",

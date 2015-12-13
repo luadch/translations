@@ -57,6 +57,9 @@
     msg_his_bantime = "Banntid: ",
     msg_his_reason = "Anledning: ",
     msg_his_by = "Bannad av: ",
+    msg_his_state = "Läge: ",
+    msg_his_active = "aktiv",
+    msg_his_expired = "löpt ut",
 
     msg_out = [[
 

@@ -18,7 +18,8 @@
 
     msg_denied = "Du har inte behörighet att använda detta kommando.",
     msg_usage = "Användning: [+!#]mass <MEDDELANDE>",
-    msg_usage_op = "Användning: [+!#]masslvl <ÅTKOMSTNIVÅ> <MEDDELANDE> / [+!#]masshub <MEDDELANDE>",
+    msg_usage_lvl = "Användning: [+!#]masslvl <ÅTKOMSTNIVÅ> <MEDDELANDE>",
+    msg_usage_hub = "Användning: [+!#]masshub <MEDDELANDE>",
     msg_lvl_exists = "Åtkomstnivån %s finns inte.",
     msg_ok = "Gruppmeddelande har skickats ut till alla användare med åtkomstnivå: ",
     msg_out = [[

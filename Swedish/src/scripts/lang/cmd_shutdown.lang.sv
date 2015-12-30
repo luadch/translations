@@ -4,7 +4,7 @@
     help_usage = "[+!#]shutdown [<MEDDELANDE>]",
     help_desc = "Stänger ner hubben",
 
-    ucmd_menu = { "Hubb", "Kärna", "Hubbnerstängning", "KLICK" },
+    ucmd_menu = { "Hubb", "Kärna", "Nerstängning av hubben", "KLICK" },
     ucmd_msg = "Gruppmeddelande (valfritt)",
 
     msg_denied = "Du har inte behörighet att använda detta kommando.",
@@ -15,11 +15,11 @@
     msg_shutdown = [[
 
 
-=== HUBBNERSTÄNGNING ======================================================================================================
+=== NERSTÄNGNING AV HUBBEN ======================================================================================================
 
   %s
 
-====================================================================================================== HUBBNERSTÄNGNING ===
+====================================================================================================== NERSTÄNGNING AV HUBBEN ===
 
   ]],
 

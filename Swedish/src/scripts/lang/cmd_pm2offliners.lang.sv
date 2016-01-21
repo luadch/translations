@@ -21,9 +21,10 @@ msg_fail_2 = "Användaren är redan ansluten.",
 msg_ok = "Meddelandet är sparat.",
 msg_del_1 = "Databasen har rensats.",
 msg_del_2 = "Databasen är redan tom.",
-msg_reply = "Det har kommit [%s] nya meddelanden till dig medans du var frånkopplad.",
+msg_reply = "Du har fått [%s] meddelande(n) medans du var frånkopplad.",
 msg_pm_1 = "Frånkopplade PM %s  |  ",
 msg_pm_2 = "Avsändare: %s  |  Datum: %s \n\n",
 msg_pm_3 = "Meddelande: %s \n\n",
+msg_confirm = "Det privata meddelandet du skickade till  %s  har mottagits.\n\nDatum: %s\nMeddelande: %s",
 
 }

@@ -7,7 +7,8 @@
     msg_reg = "Användaren är inte registrerad eller så är det en bot.",
     msg_ok = "Lösenordet har ändrats till: ",
     msg_ok2 = "Ditt lösenord har ändrats till: ",
-    msg_length = "Lösenordet måste vara minst %s tecken långt",
+    msg_min_length = "Lösenordet måste innehålla minst %s tecken",
+    msg_max_length = "Lösenordet får maximalt innehålla %s tecken",
 
     help_title = "cmd_setpass.lua",
     help_usage = "[+!#]setpass nick <ANVÄNDARNAMN> <LÖSENORD>  /  [+!#]setpass nick myself <LÖSENORD>",

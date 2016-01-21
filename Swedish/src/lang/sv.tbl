@@ -11,7 +11,8 @@ sv.hub_invalid_pid = "Ditt PID är ogiltigt."
 sv.hub_invalid_ip = "Din IP-adress i INF matchar inte din riktiga IP-adress. Riktig IP-adress/Din IP-adress: "
 sv.hub_reg_only = "Endast registrerade användare."
 sv.hub_invalid_pass = "Felaktigt lösenord."
-sv.hub_unknown = "<okänt>"
+sv.hub_unknown = "<OKÄND>"
 sv.hub_max_bad_password = "Max antal felaktiga lösenord uppnåda. Timeout i sekunder: "
+sv.hub_hubbot_response = "Det är jag som är Hubboten, vill du verkligen prata med mig?"
 
 return sv

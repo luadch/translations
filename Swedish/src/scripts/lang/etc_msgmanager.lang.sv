@@ -5,7 +5,7 @@
     
     help_title = "etc_msgmanager.lua",
     help_usage = "[+!#]msgmanager showusers|showsettings|blockmain <ANVÄNDARNAMN>|blockpm <ANVÄNDARNAMN>|blockboth <ANVÄNDARNAMN>|unblock <ANVÄNDARNAMN>",
-    help_desc = "Visa blockerade användare | visa inställningar | blockera huvudchatten | blockera privatchatten | blockera båda | avblockera användaren",
+    help_desc = "Visa blockerade användare | visa inställningar | blockera huvudchatten | blockera privatchatten | blockera båda | ta bort blockering på användaren",
 
     msg_denied = "Du har inte behörighet att använda detta kommando.",
     msg_god = "Du har inte behörighet att blockera denna användaren.",
@@ -15,10 +15,10 @@
     msg_isbot = "Användaren är en bot.",
 
     msg_block = "Meddelandehanterare: Blockerat användaren: %s  |  Läge: %s",
-    msg_unblock = "Meddelandehanterare: Avblockerat användaren: %s",
+    msg_unblock = "Meddelandehanterare: Tagit bort blockering på användaren: %s",
 
     msg_report_block = "Meddelandehanterare:  %s  har blockerat användaren: %s  |  Läge: %s",
-    msg_report_unblock = "Meddelandehanterare:  %s  har avblockerat användaren: %s",
+    msg_report_unblock = "Meddelandehanterare:  %s  har tagit bort blockeringen på användaren: %s",
 
     ucmd_menu_ct1_1 = { "Hubb", "etc", "Meddelandehanterare", "visa inställningar" },
     ucmd_menu_ct1_2 = { "Hubb", "etc", "Meddelandehanterare", "visa blockerade användare" },
@@ -26,7 +26,7 @@
     ucmd_menu_ct2_1 = { "Meddelandehanterare", "blockera", "huvudchatt" },
     ucmd_menu_ct2_2 = { "Meddelandehanterare", "blockera", "pm" },
     ucmd_menu_ct2_3 = { "Meddelandehanterare", "blockera", "båda" },
-    ucmd_menu_ct2_4 = { "Meddelandehanterare", "avblockera" },
+    ucmd_menu_ct2_4 = { "Meddelandehanterare", "ta bort blockering" },
 
     msg_usage = [[
 
@@ -38,7 +38,7 @@ Användning:
     [+!#]msgmanager blockmain <ANVÄNDARNAMN>  -- blockerar användarens meddelande i huvudchatten
     [+!#]msgmanager blockpm <ANVÄNDARNAMN>  -- blockerar användarens privata meddelanden
     [+!#]msgmanager blockboth <ANVÄNDARNAMN>  -- blockerar användarens huvudchatt + privata meddelanden
-    [+!#]msgmanager unblock <ANVÄNDARNAMN>  -- avblockerar användaren
+    [+!#]msgmanager unblock <ANVÄNDARNAMN>  -- tar bort blockering på användaren
     [+!#]msgmanager showusers  -- visar alla blockerade användare
     [+!#]msgmanager showsettings  -- visar inställningar från 'cfg.tbl'
    

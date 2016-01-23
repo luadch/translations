@@ -14,17 +14,22 @@
     msg_notfound = "Trafikhanterare: Användaren är inte blockerad.",
     msg_stillblocked = "Trafikhanterare: Användaren är redan automatiskt blockerad via sin åtkomstnivån.",
     msg_isbot = "Trafikhanterare: Användaren är en bot.",
-    msg_block = "Trafikhanterare: Blockera användare: %s",
-    msg_unblock = "Trafikhanterare: Avblockerat användaren: %s",
-    msg_op_report_block = "Trafikhanterare:  %s  har blockerat användaren: %s",
-    msg_op_report_unblock = "Trafikhanterare:  %s  har avblockerat användaren: %s",
+    msg_block = "Trafikhanterare: Blockerat användaren: %s  |  Anledning: %s",
+    msg_unblock = "Trafikhanterare: Tagit bort blockeringen på användaren: %s",
+    msg_op_report_block = "Trafikhanterare:  %s  har blockerat användaren: %s  |  Anledning: %s",
+    msg_op_report_unblock = "Trafikhanterare:  %s  har tagit bort blockeringen på användaren: %s",
     msg_autoblock = "Trafikhanterare: Användaren har automatiskt blivit blockerad av ett script.",
     msg_onsearch = "Trafikhanterare: Din sök har inaktiverats.",
+    msg_unknown = "okänd",
+    msg_reason = "Anledning:",
+    msg_target_block = "Trafikhanterare: Du har blivit blockerad av: %s  |  Anledning: %s",
+    msg_target_unblock = "Trafikhanterare: Blockering har tagits bort av: %s",
 
     ucmd_menu_ct1_1 = { "Hubb", "etc", "Trafikhanterare", "visa", "inställningar" },
     ucmd_menu_ct1_2 = { "Hubb", "etc", "Trafikhanterare", "visa", "blockerade användare" },
     ucmd_menu_ct2_1 = { "Trafikhanterare", "blockera" },
-    ucmd_menu_ct2_3 = { "Trafikhanterare", "avblockera" },
+    ucmd_menu_ct2_3 = { "Trafikhanterare", "ta bort blockering" },
+    ucmd_desc = "Anledning (valfritt):",
 
     report_msg = [[
 
@@ -90,7 +95,7 @@
 Användning:
 
  [+!#]trafficmanager block <ANVÄNDARNAMN>  -- blockerar nedladdningar ( d ), uppladdningar ( u ) och sök ( s )
- [+!#]trafficmanager unblock <ANVÄNDARNAMN>  -- avblockerar användaren
+ [+!#]trafficmanager unblock <ANVÄNDARNAMN>  -- tar bort blockering på användaren
  [+!#]trafficmanager show settings  -- visar inställningar från "cfg/cfg.tbl"
  [+!#]trafficmanager show blocks  -- visar alla blockerade användare och deras blockeringläge
 
@@ -100,10 +105,10 @@ Användning:
     msg_users = [[
 
 
-=== TRAFIKHANTERARE ================================
+=== TRAFIKHANTERARE  ========================================================================
 
 %s
-================================ TRAFIKHANTERARE ===
+======================================================================== TRAFIKHANTERARE  ===
   ]],
 
 }

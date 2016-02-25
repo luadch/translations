@@ -14,7 +14,7 @@
     help_usage = "[+!#]delreg nick <ANVÄNDARNAMN>  /  eller radera med svartlistspost:  [+!#]delreg nick <ANVÄNDARNAMN> <BESKRIVNING>",
     help_desc = "Raderar en användare",
 
-    ucmd_menu_ct1 = { "Användare", "Kontroll", "Delreg", "OK" },
+    ucmd_menu_ct1 = { "Användare", "Kontroll", "Delreg", "efter ANVÄNDARNAMN" },
     ucmd_menu_ct2 = { "Delreg", "OK" },
     ucmd_nick = "Användarnamn:",
     ucmd_reason = "Anledning: (läggs inte i svartlistan om den är tom)",

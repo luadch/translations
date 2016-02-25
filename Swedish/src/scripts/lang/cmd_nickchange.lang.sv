@@ -11,7 +11,7 @@
     msg_ok = "Användarnamnet har ändrats till: ",
     msg_disconnect = "Bytet av ditt användarnamn lyckades. Återanslut med ditt nya användarnamn.",
     msg_usage = "Användning: [+!#]nickchange mynick <NYTT_ANVÄNDARNAMN>  /  [+!#]nickchange othernick <GAMMALT_ANVÄNDARNAMN> <NYTT_ANVÄNDARNAMN>",
-    msg_length = "Användarnamnet är för långt, maximal längd är: ",
+    msg_length = "Begränsningar i användarnamnet min/max: %s/%s",
     msg_op = "Användaren %s har ändrat sitt egna användarnamn till: %s",
     msg_op2 = "Användaren %s har ändrat sitt användarnamn från: %s  till: %s",
 

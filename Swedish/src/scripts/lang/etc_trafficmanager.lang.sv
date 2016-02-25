@@ -5,7 +5,7 @@
     help_desc = "Visar nuvarande inställningar från 'cfg/cfg.tbl' | Visar alla blockerade användarna och deras blockeringsläge",
 
     help_title2 = "etc_trafficmanager.lua - Owners",
-    help_usage2 = "[+!#]trafficmanager block|unblock <ANVÄNDARNAMN>",
+    help_usage2 = "[+!#]trafficmanager block <ANVÄNDARNAMN> [<ANLEDNING>] | unblock <ANVÄNDARNAMN>",
     help_desc2 = "Blockerar nedladdningar ( d ), uppladdningar ( u ) och sök ( s ) | Unblock user",
 
     msg_denied = "Du har inte behörighet att använda detta kommando.",
@@ -22,6 +22,7 @@
     msg_onsearch = "Trafikhanterare: Din sök har inaktiverats.",
     msg_unknown = "okänd",
     msg_reason = "Anledning:",
+    msg_blocked_by = "Blockerad av:",
     msg_target_block = "Trafikhanterare: Du har blivit blockerad av: %s  |  Anledning: %s",
     msg_target_unblock = "Trafikhanterare: Blockering har tagits bort av: %s",
 
@@ -48,7 +49,8 @@
 
 === TRAFIKHANTERARE =====================================
 
-     Hej %s, du delar ut:  0 B
+     Hej %s,
+     storleken på din utdelning är inte tillräcklig stor för hubbens minimumkrav:
 
      Nedladdningar, uppladdningar och sök är blockerade.
 
@@ -60,7 +62,10 @@
 
 === TRAFIKHANTERARE =====================================
 
-     Hej %s, ditt användarnamn finns i blockeringslistan:
+     Hej %s, ditt användarnamn finns i blockeringslistan.
+
+     Blockerad av: %s
+     Anledning: %s
 
      Nedladdningar, uppladdningar och sök är blockerade.
 
@@ -94,7 +99,7 @@
 
 Användning:
 
- [+!#]trafficmanager block <ANVÄNDARNAMN>  -- blockerar nedladdningar ( d ), uppladdningar ( u ) och sök ( s )
+ [+!#]trafficmanager block <ANVÄNDARNAMN> [<ANLEDNING>]  -- blockerar nedladdningar ( d ), uppladdningar ( u ) och sök ( s )
  [+!#]trafficmanager unblock <ANVÄNDARNAMN>  -- tar bort blockering på användaren
  [+!#]trafficmanager show settings  -- visar inställningar från "cfg/cfg.tbl"
  [+!#]trafficmanager show blocks  -- visar alla blockerade användare och deras blockeringläge
@@ -106,7 +111,6 @@ Användning:
 
 
 === TRAFIKHANTERARE  ========================================================================
-
 %s
 ======================================================================== TRAFIKHANTERARE  ===
   ]],

@@ -1,5 +1,5 @@
 ﻿return {
 
-    msg_sharelimits = "Minsta delning i hubben: %s  |  Max delning i hubben: %s  |  Din delning: %s",
+    msg_sharelimits = "Minsta/högsta utdelning i hubben: %s/%s  Din utdelning: %s",
 
 }

@@ -46,5 +46,6 @@
     ucmd_menu_ct4 = { "Ändra", "Kommentar", "add//change comment of a reguser" },
     ucmd_desc2 = "Kommentar:",
     msg_desc = "Användare: %s  lade till/ändrade kommentar till/från användare: %s  kommentar: %s",
+    msg_length = "Begränsningar i användarnamnet min/max: %s/%s",
 
 }

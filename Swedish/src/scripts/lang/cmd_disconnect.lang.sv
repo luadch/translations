@@ -15,7 +15,7 @@
     
     ucmd_target = "Användarnamn",
     ucmd_reason = "Anledning",
-    ucmd_menu1 = { "Användare", "Kontroll", "Koppla från", "OK" },
+    ucmd_menu1 = { "Användare", "Kontroll", "Koppla från", "efter ANVÄNDARNAMN" },
     ucmd_menu2 =  { "Koppla från", "OK" },
 
 }

@@ -16,7 +16,7 @@
     msg_06 = "\t  Borttagen av: ",
     msg_03 = "\t  Anledning: ",
     msg_04 = "Följande användare har tagits bort från svartalistan: ",
-    msg_05 = "Fel: User not found.",
+    msg_05 = "Fel: Hittade inte användaren.",
 
     ucmd_menu_show = { "Hubb", "etc", "Svartalistan", "visa" },
     ucmd_menu_del = { "Hubb", "etc", "Svartalistan", "ta bort användare" },

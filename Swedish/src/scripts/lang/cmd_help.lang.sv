@@ -1,8 +1,8 @@
 ﻿return {
 
-    msg_usage = "Användning: ",
-    msg_description = "Beskrivning: ",
-    msg_minlevel = "Åtkomstnivå: ",
+    msg_usage = "Användning:",
+    msg_description = "Beskrivning:",
+    msg_minlevel = "Lägsta åtkomstnivå:",
 
     help_title = "cmd_help.lua",
     help_usage = "[+!#]help",
@@ -15,8 +15,6 @@
 
 === TILLGÄNGLIGA KOMMANDON =================================================================================
 %s
-
-
 ================================================================================= TILLGÄNGLIGA KOMMANDON ===
   ]],
 

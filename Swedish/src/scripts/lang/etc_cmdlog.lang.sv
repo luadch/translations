@@ -9,7 +9,7 @@
     msg_usage = "Användning: [+!#]cmdlog show",
 
     msg1 = "   |   Kommando: [+!#]",
-    msg2 = "   |   använd av: ",
+    msg2 = "   |   användes av: ",
 
     msg_out = [[
 

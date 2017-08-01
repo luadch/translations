@@ -17,7 +17,7 @@
 
     msg_unknown = "<OKÄNT>",
 
-    msg_info_1 = [[
+    msg_info = [[
 
 
 === ANVÄNDARENS INLOGGNINGSINFO ==============================
@@ -28,44 +28,15 @@
 
         Klientversion:	%s
         Klientläge:	%s
-        Klient-SSL:	%s
-        Klient-CCPM:   %s
 
         Registrerad av:	%s
         Registrerad den:	%s
 
         Senast inloggad:  %s
 
-        TLS-läge:   %s
-        TLS-cipher:  %s
-
-============================== ANVÄNDARENS INLOGGNINGSINFO ===
-   ]],
-
-
-    msg_info_2 = [[
-
-
-=== ANVÄNDARENS INLOGGNINGSINFO ==============================
-
-        Användarnamn:	%s
-        IP-adress:	%s
-        Åtkomstnivå:	%s  [ %s ]
-
-        Klientversion:	%s
-        Klientläge:	%s
         Klient-SSL:	%s
-        Klient-CCPM:   %s
-
-        Registrerad av:	%s
-        Registrerad den:	%s
-
-        Senast inloggad:  %s
-
-        TLS-läge:   %s
-        TLS-cipher:  %s
-
-        Hubbversion:	%s
+        TLS-läge:	%s
+        TLS-cipher:	%s
 
 ============================== ANVÄNDARENS INLOGGNINGSINFO ===
    ]],

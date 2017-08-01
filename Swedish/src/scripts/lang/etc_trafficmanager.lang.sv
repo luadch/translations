@@ -9,7 +9,7 @@
     help_desc2 = "Blockerar nedladdningar ( d ), uppladdningar ( u ) och sök ( s ) | Unblock user",
 
     msg_denied = "Du har inte behörighet att använda detta kommando.",
-    msg_god = "Du har inte behörighet att blockera denna användaren.",
+    msg_god = "Du har inte behörighet att blockera/avblockera denna användaren.",
     msg_notonline = "Trafikhanterare: Användaren är frånkopplad.",
     msg_notfound = "Trafikhanterare: Användaren är inte blockerad.",
     msg_stillblocked = "Trafikhanterare: Användaren är redan automatiskt blockerad via sin åtkomstnivån.",

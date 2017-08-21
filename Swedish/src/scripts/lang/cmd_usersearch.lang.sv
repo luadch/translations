@@ -9,7 +9,7 @@
     ucmd_menu = { "Hubb", "etc", "Användarsök" },
     ucmd_popup = "Sök registrerat användarnamn",
 
-    msg_result = "\n\tAnvändarnamn: %s \n\tÅtkomstnivå: %s\n\tLösenord: %s\n\tRegistrerad av: %s\n\tRegistrerad sen: %s\n\tSågs senast: %s",
+    msg_result = "\n\tAnvändarnamn: %s\n\tÅtkomstnivå: %s\n\tLösenord: %s\n\tRegistrerad av: %s\n\tRegistrerad sen: %s\n\tSågs senast: %s",
     msg_no_matches = "Inga matchningar funna",
     msg_no_allowed = "Ej tillgängligt för dig",
     msg_unknown = "<OKÄNT>",

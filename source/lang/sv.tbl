@@ -1,0 +1,18 @@
+﻿local sv = { }
+
+sv.hub_login_message = "Denna server använder %s %s %s (Drifttid: %d dagar, %d timmar, %d minuter, %d sekunder)"
+sv.hub_nick_or_cid_taken = "Användarnamn/CID används redan."
+sv.hub_hub_is_full = "Hubben är full."
+sv.hub_no_base_support = "Din klient stöder inte BASE."
+sv.hub_no_cid_nick_found = "Hittade ingen CID/PID/användarnamn i din INF."
+sv.hub_cid_taken = "Ditt CID används redan."
+sv.hub_nick_taken = "Ditt användarnamn används redan."
+sv.hub_invalid_pid = "Ditt PID är ogiltigt."
+sv.hub_invalid_ip = "Din IP-adress i INF matchar inte din faktiska IP-adress. Faktisk IP-adress/Din IP-adress: "
+sv.hub_reg_only = "Endast registrerade användare."
+sv.hub_invalid_pass = "Felaktigt lösenord."
+sv.hub_unknown = "<OKÄND>"
+sv.hub_max_bad_password = "Max antal felaktiga lösenord uppnåda. Timeout i sekunder: "
+sv.hub_hubbot_response = "Det är jag som är Hubboten, vill du verkligen prata med mig?"
+
+return sv

@@ -1,0 +1,26 @@
+﻿return {
+
+    help_title = "etc_cmdlog.lua",
+    help_usage = "[+!#]cmdlog show",
+    help_desc = "Mostra os logs do comando",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_nofile = "Nenhum 'cmd.log' encontrado",
+    msg_usage = "Uso: [+!#]cmdlog show",
+
+    msg1 = "   |   Comando: [+!#]",
+    msg2 = "   |   usado por: ",
+
+    msg_out = [[
+
+    
+=== LOGGER DE COMANDOS========================================================================================
+
+%s
+======================================================================================== LOGGER DE COMANDOS ===
+
+      ]],
+
+    ucmd_menu = { "Hub", "Logs", "Mostrar", "cmd.log" },
+
+}

@@ -1,0 +1,21 @@
+﻿return {
+
+    help_title = "usr_redirect.lua",
+    help_usage = "[+!#]redirect <NICK> <URL>",
+    help_desc = "Redireciona usuário para url",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_usage = "Uso: [+!#]redirect <NICK> <URL>",
+    msg_god = "Você não tem permissão para redirecionar este usuário.",
+    msg_isbot = "Usuário é um bot.",
+    msg_notonline = "Usuário está offline.",
+    msg_redirect = "Usuário: %s  foi redirecionado para: %s",
+    msg_report_redirect = "%s  redirecionou usuário: %s  para: %s",
+
+    ucmd_menu_ct2_1 = { "Redirecionar", "URL padrão" },
+    ucmd_menu_ct2_2 = { "Redirecionar", "URL personalizada" },
+    ucmd_url = "Redirecionar para url:",
+
+    msg_report = "Usuário  %s  com nível  %s [ %s ]  foi auto-redirecionado para: %s",
+
+}

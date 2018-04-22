@@ -1,0 +1,33 @@
+﻿return {
+
+    help_title = "etc_blacklist.lua - Show",
+    help_usage = "[+!#]blacklist show",
+    help_desc = "Mostra lista negra de usuários",
+    
+    help_title2 = "etc_blacklist.lua - Del",
+    help_usage2 = "[+!#]blacklist del <NICK>",
+    help_desc2 = "Exclui usuário da lista negra",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_usage = "Uso: [+!#]blacklist show  /  [+!#]blacklist del <NICK>",
+
+    msg_01 = "\t  Nome do Usuário: ",
+    msg_02 = "\t  Excluído em: ",
+    msg_06 = "\t  Excluído por: ",
+    msg_03 = "\t  Razão: ",
+    msg_04 = "O seguinte usuário foi excluído da Lista Negra: ",
+    msg_05 = "Erro: Usuário não encontrado.",
+
+    ucmd_menu_show = { "Hub", "etc", "Lista Negra", "Mostrar" },
+    ucmd_menu_del = { "Hub", "etc", "Lista Negra", "excluir usuário" },
+    ucmd_nick = "Nome do usuário:",
+    
+    msg_out = [[
+
+
+=== LISTA NEGRA =========================================================================================
+%s
+========================================================================================= LISTA NEGRA ===
+  ]],
+
+}

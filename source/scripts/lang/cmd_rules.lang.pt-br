@@ -1,0 +1,19 @@
+﻿return {
+
+    help_title = "cmd_rules.lua",
+    help_usage = "[+!#]rules",
+    help_desc = "Mostrar regras do hub",
+
+    ucmd_menu =  { "Geral", "Regras" },
+
+    msg_rules = [[
+
+
+=== REGRAS =======================================================================================
+
+                                                                                                  sem regras atm.
+
+======================================================================================= REGRAS ===
+    ]],
+
+}

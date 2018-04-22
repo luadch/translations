@@ -1,0 +1,44 @@
+﻿return {
+
+    client_mode_a = "ativo",
+    client_mode_p = "passivo",
+    client_ssl_n = "não ( por favor, ative-o! )",
+    client_ssl_y = "sim",
+
+    msg_ccpm_1 = "sim ( habilitado para o seu nível )",
+    msg_ccpm_2 = "sim ( desativado para o seu nível )",
+    msg_ccpm_3 = "não",
+
+    msg_years = " anos, ",
+    msg_days = " dias, ",
+    msg_hours = " horas, ",
+    msg_minutes = " min, ",
+    msg_seconds = " seg",
+
+    msg_unknown = "<DESCONHECIDO>",
+
+    msg_info = [[
+
+
+=== INFO DO LOGIN DO USUÁRIO ==============================
+
+        Seu Apelido:	%s
+        Seu IP:	%s
+        Seu Nível:	%s  [ %s ]
+
+        Versão do Cliente:	%s
+        Modo do Cliente:	%s
+
+        Registrado por:	%s
+        Registrado em:	%s
+
+        Última visita:  %s
+
+        Cliente SSL:	%s
+        Modo TLS:	%s
+        Criptografia TLS:	%s
+
+============================== INFO DO LOGIN DO USUÁRIO ===
+   ]],
+
+}

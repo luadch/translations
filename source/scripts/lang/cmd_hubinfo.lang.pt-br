@@ -1,0 +1,67 @@
+﻿return {
+
+    help_title = "cmd_hubinfo.lua",
+    help_usage = "[+!#]hubinfo",
+    help_desc = "Envia uma lsita básica de informações sobre o hub",
+
+    ucmd_menu = { "Geral", "Hubinfo" },
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_years = " anos, ",
+    msg_days = " dias, ",
+    msg_hours = " horas, ",
+    msg_minutes = " minutos, ",
+    msg_seconds = " segundos",
+    msg_unknown = "<DESCONHECIDO>",
+
+    msg_out = [[
+
+
+=== HUBINFO =====================================================================================
+
+        [ HUB ]
+
+        Nome do hub:  %s
+        Endereço: %s
+        Porta ADC:  %s
+        Porta ADCS:  %s
+        Usar SSL:  %s
+        Modo TLS:  %s
+        Usar Keyprint:        %s
+        Keyprint:  %s
+
+        Versão:  %s %s
+        Direitos Autorais:  %s
+        
+        Tempo de atividade (completo):  %s
+        Tempo de atividade (sessão):  %s
+        
+        Executando scripts:  %s
+        Uso de memória:  %s
+        
+        Compartilhamento do hub:  %s 
+        
+        Hub website:  %s
+        Rede do Hub:  %s
+        Proprietário:  %s
+
+        [ USUÁRIO]
+
+        Total de usuários registrados:  %s
+        Total de usuários online:  %s
+        Usuários online registrados:  %s
+        Usuários online desregistrados:  %s
+        Usuários online ativos:  %s
+        Usuários online passivos:  %s
+
+        [ SYSTEM ]
+
+        OS:     %s
+        CPU:   %s
+        RAM total:  %s
+        RAM livre:  %s
+
+===================================================================================== HUBINFO ===
+  ]],
+
+}

@@ -1,0 +1,28 @@
+﻿return {
+
+    msg_denied = "Você não tem permissão para usar este comando ou o usuário alvo tem um nível mais alto que você",
+    msg_usage = "Uso: [+!#]upgrade sid|nick|cid <SID>|<NICK>|<CID> <LEVEL>",
+    msg_off = "Usuário não encontrado.",
+    msg_reg = "Usuário não está registrado ou é um bot.",
+    msg_out = "%s  mudado  %s  do nível: %s [ %s ]  para o nível:  %s [ %s ]",
+    msg_out_2 = "%s  com nível:  %s [ %s ]  tentou mudar  %s  para o nível:  %s [ %s ]",
+    msg_same = "Este Usuário ainda tem este nível, nenhuma mudança necessária.",
+
+    help_title = "cmd_upgrade.lua",
+    help_usage = "[+!#]upgrade sid|nick|cid <SID>|<NICK>|<CID> <LEVEL>",
+    help_desc = "Define o nível de um usuário",
+
+    ucmd_menu = "Aumentar",
+    ucmd_level = "Nível:",
+    ucmd_popup = "Apelido:",
+    
+    ucmd_menu_ct1_1 = "Usuário",
+    ucmd_menu_ct1_2 = "Controle",
+    ucmd_menu_ct1_3 = "Aumentar",
+    ucmd_menu_ct1_4 = "por APELIDO da lista",
+    ucmd_menu_ct1_5 = "Usuário",
+    ucmd_menu_ct1_6 = "Controle",
+    ucmd_menu_ct1_7 = "Aumentar",
+    ucmd_menu_ct1_8 = "por APELIDO",
+
+}

@@ -1,0 +1,79 @@
+﻿return {
+
+    msg_denied_main = "Você não tem permissão para escrever mensagens no chat principal.",
+    msg_denied_pm = "Você não tem permissão para escrever mensagens privadas.",
+    
+    help_title = "etc_msgmanager.lua",
+    help_usage = "[+!#]msgmanager showusers|showsettings|blockmain <NICK>|blockpm <NICK>|blockboth <NICK>|unblock <NICK>",
+    help_desc = "Mostrar usuários bloqueados | mostrar configurações | bloco chats principais | bloco pm chats | bloquear os dois | desbloquear usuário",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_god = "Você não tem permissão para bloquear este usuário.",
+    msg_stillblocked = "Este usuário já está bloqueado.",
+    msg_notonline = "Usuário está offline.",
+    msg_notfound = "Usuário não encontrado.",
+    msg_isbot = "Usuário é um bot.",
+
+    msg_block = "Gerenciador de Mensagem: Bloquear usuário: %s  |  Modo: %s",
+    msg_unblock = "Gerenciador de Mensagem: Desboquear usuário: %s",
+
+    msg_report_block = "Gerenciador de Mensagem:  %s  foi bloqueado usuário: %s  |  Modo: %s",
+    msg_report_unblock = "Gerenciador de Mensagem:  %s  foi desbloqueado usuário: %s",
+
+    ucmd_menu_ct1_1 = { "Hub", "etc", "Gerenciador de Mensagem", "mostrar configurações" },
+    ucmd_menu_ct1_2 = { "Hub", "etc", "Gerenciador de Mensagem", "mostrar usuários bloqueados" },
+
+    ucmd_menu_ct2_1 = { "Gerenciador de Mensagem", "bloquear", "principal" },
+    ucmd_menu_ct2_2 = { "Gerenciador de Mensagem", "bloquear", "pm" },
+    ucmd_menu_ct2_3 = { "Gerenciador de Mensagem", "bloquear", "ambos" },
+    ucmd_menu_ct2_4 = { "Gerenciador de Mensagem", "desbloquear" },
+
+    msg_usage = [[
+
+
+=== GERENCIADOR DE MENSAGEM ===========================================================
+
+Uso:
+
+    [+!#]msgmanager blockmain <NICK>  -- bloqueia mensagens principais de usuários
+    [+!#]msgmanager blockpm <NICK>  -- bloqueia usuários mensagens pm
+    [+!#]msgmanager blockboth <NICK>  -- bloqueia usuários mensagens principais + pm
+    [+!#]msgmanager unblock <NICK>  -- desbloquear usuário
+    [+!#]msgmanager showusers  -- mostrar todos os usuários bloqueados
+    [+!#]msgmanager showsettings  -- mostrar configurações de 'cfg.tbl'
+   
+=========================================================== GERENCIADOR DE MENSAGEM ===
+  ]],
+  
+    msg_users = [[
+
+
+=== GERENCIADOR DE MENSAGEM ================================
+
+               Modo de bloqueio              Nome de usuário
+  -------------------------------------------------------------------------------------
+
+%s
+  -------------------------------------------------------------------------------------
+               m = main   |   p = pm   |   b = both
+
+================================ GERENCIADOR DE MENSAGEM ===
+  ]],
+  
+    msg_settings = [[
+
+
+=== GERENCIADOR DE MENSAGEM =====================================
+
+   Script está ativo:  %s
+
+   Bloqueados níveis PRINCIPAL:
+
+%s
+   Blocked PM levels:
+
+%s
+===================================== GERENCIADOR DE MENSAGEM ===
+  ]],
+
+}

@@ -1,0 +1,118 @@
+﻿return {
+
+    help_title = "etc_trafficmanager.lua - Operators",
+    help_usage = "[+!#]trafficmanager show settings|blocks",
+    help_desc = "Mostra as configurações atuais de 'cfg/cfg.tbl' | Mostra todos os usuários bloqueados e seus modos de bloqueio",
+
+    help_title2 = "etc_trafficmanager.lua - Owners",
+    help_usage2 = "[+!#]trafficmanager block <NICK> [<REASON>] | unblock <NICK>",
+    help_desc2 = "Downloads bloqueados ( d ), uploads ( u ) e busca ( s ) | Desbloquear usuário",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_god = "Você não tem permissão para bloquear este usuário.",
+    msg_notonline = "Gerenciador de Tráfego: o usuário está offline.",
+    msg_notfound = "Gerenciador de Tráfego: o usuário não está bloqueado.",
+    msg_stillblocked = "Gerenciador de Tráfego: o nível desse usuário já está bloqueado automaticamente.",
+    msg_isbot = "Gerenciador de Tráfego: Usuário é um bot.",
+    msg_block = "Gerenciador de Tráfego: Bloquear usuário: %s  |  Razão: %s",
+    msg_unblock = "Gerenciador de Tráfego: Desbloquear usuário: %s",
+    msg_op_report_block = "Gerenciador de Tráfego:  %s  bloqueou o usuário: %s  |  Razão: %s",
+    msg_op_report_unblock = "Gerenciador de tráfego:  %s  tenha um usuário desbloqueado: %s",
+    msg_autoblock = "Gerenciador de Tráfego: Este usuário foi auto-bloqueado por permissões de script.",
+    msg_onsearch = "Gerenciador de Tráfego: Sua função de pesquisa está desativada.",
+    msg_unknown = "desconhecido",
+    msg_reason = "Razão:",
+    msg_blocked_by = "Bloqueado por:",
+    msg_target_block = "Gerenciador de Tráfego: Você foi bloqueado por: %s  |  Razão: %s",
+    msg_target_unblock = "Gerenciador de Tráfego: Você foi desbloqueado por: %s",
+
+    ucmd_menu_ct1_1 = { "Hub", "etc", "Gerenciador de Tráfego", "Mostrar", "configurações" },
+    ucmd_menu_ct1_2 = { "Hub", "etc", "Gerenciador de Tráfego", "Mostrar", "usuários bloqueados" },
+    ucmd_menu_ct2_1 = { "Gerenciador de Tráfego", "bloquear" },
+    ucmd_menu_ct2_3 = { "Gerenciador de Tráfego", "desbloquear" },
+    ucmd_desc = "Razão (opcional):",
+
+    report_msg = [[
+
+
+=== GERENCIADOR DE TRÁFEGO =====================================
+
+     Olá %s, seu nível neste hub:  %s [ %s ]
+
+     Downloads, Uploads e Pesquisas são bloqueados.
+
+===================================== GERENCIADOR DE TRÁFEGO ===
+  ]],
+
+    report_msg_2 = [[
+
+
+=== GERENCIADOR DE TRÁFEGO =====================================
+
+     Olá %s,
+     seu compartilhamento não atende ao requisito mínimo de:
+
+     Downloads, Uploads e Pesquisas são bloqueados.
+
+===================================== GERENCIADOR DE TRÁFEGO ===
+  ]],
+
+    report_msg_3 = [[
+
+
+=== GERENCIADOR DE TRÁFEGO =====================================
+
+     Olá %s, seu apelido está na lista de bloqueio.
+
+     Bloqueado por: %s
+     Razão: %s
+
+     Downloads, Uploads e Pesquisas são bloqueados.
+
+===================================== GERENCIADOR DE TRÁFEGO ===
+  ]],
+
+    opmsg = [[
+
+
+=== GERENCIADOR DE TRÁFEGO =====================================
+
+   Script está ativo:  %s
+   Enviar relatório para usuários bloqueados ao entrar:  %s
+   Enviar relatório para usuários bloqueados no horário:  %s
+
+         Enviar para o Principal:  %s
+         Enviar para PM:  %s
+
+   Níveis bloqueados:
+
+%s
+   Bloquear usuários com 0 B de compartilhamento:  %s
+
+===================================== GERENCIADOR DE TRÁFEGO ===
+  ]],
+
+    msg_usage = [[
+
+
+=== GERENCIADOR DE TRÁFEGO  ===========================================================
+
+Uso:
+
+ [+!#]trafficmanager block <NICK> [<REASON>]  -- bloqueia de downloads ( d ), uploads ( u ) e pesquisa ( s )
+ [+!#]trafficmanager unblock <NICK>  -- desbloquear usuário
+ [+!#]trafficmanager show settings  -- mostra as configurações atuais de "cfg/cfg.tbl"
+ [+!#]trafficmanager show blocks  -- mostra todos os usuários de bloqueados e seus modos de bloqueio
+
+=========================================================== GERENCIADOR DE TRÁFEGO  ===
+  ]],
+
+    msg_users = [[
+
+
+=== GERENCIADOR DE TRÁFEGO ========================================================================
+%s
+======================================================================== GERENCIADOR DE TRÁFEGO ===
+  ]],
+
+}

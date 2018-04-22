@@ -1,0 +1,15 @@
+﻿return {
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_userlist = "Lista de Usuários:",
+    msg_useramount = "Quantidade de usuários nos níveis:\n",
+
+    help_title = "cmd_userlist.lua",
+    help_usage = "[+!#]userlist [bydate]",
+    help_desc = "Envia lista de usuários registrados",
+
+
+    ucmd_menu = { "Hub", "etc", "Lista de Usuários", "pelo NÍVEL" },
+    ucmd_menu_bydate = { "Hub", "etc", "Lista de Usuários", "pela DATA" },
+
+}

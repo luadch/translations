@@ -10,12 +10,13 @@
     ucmd_popup = "Sök registrerat användarnamn",
 
     msg_result = "\n\tAnvändarnamn: %s\n\tÅtkomstnivå: %s\n\tLösenord: %s\n\tRegistrerad av: %s\n\tRegistrerad sen: %s\n\tSågs senast: %s",
+    msg_result_nick = "\n\tAnvändarnamn: %s",
     msg_no_matches = "Inga matchningar funna",
     msg_no_allowed = "Ej tillgängligt för dig",
     msg_unknown = "<OKÄNT>",
     msg_denied = "Du har inte behörighet att använda detta kommando.",
     msg_online = "användaren är ansluten",
-    
+
     msg_years = " år, ",
     msg_days = " dagar, ",
     msg_hours = " timmar, ",

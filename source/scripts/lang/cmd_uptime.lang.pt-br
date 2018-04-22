@@ -1,0 +1,30 @@
+﻿return {
+
+    help_title = "cmd_uptime.lua",
+    help_usage = "[+!#]uptime",
+    help_desc = "Mostra tempo que você está conectado a este hub",
+    
+    msg_denied = "Você não tem permissão para usar este comando.",
+
+    msg_years = " anos, ",
+    msg_days = " dias, ",
+    msg_hours = " horas, ",
+    msg_minutes = " min, ",
+    msg_seconds = " seg",
+    
+    msg_unknown = "<DESCONHECIDO>",
+    
+    msg_uptime = [[
+
+    
+=== UPTIME ==========================================================
+
+                  Tempo de atividade do hub (completo):  %s
+                  Tempo de atividade do hub (sessão):  %s
+                  
+                  Seu tempo de atividade:  %s
+
+========================================================== TEMPO DE ATIVIDADE===
+  ]],
+
+}

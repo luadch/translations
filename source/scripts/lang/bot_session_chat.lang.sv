@@ -47,7 +47,7 @@ msg_help_owner = [[
 
 === HJÄLP FÖR ÄGAREN ===================================
 
-Visa alla i-chattkommandon:
+Visa alla in-chattkommandon:
 
 %s
 %s
@@ -62,7 +62,7 @@ msg_help_member = [[
 
 === HJÄLP FÖR MEDLEMMAR =================================
 
-Visa alla i-chattkommandon:
+Visa alla in-chattkommandon:
 
 %s
 %s

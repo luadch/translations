@@ -1,0 +1,22 @@
+﻿return {
+
+    help_title = "hub_runtime.lua",
+    help_usage = "[+!#]runtime show|reset",
+    help_desc = "Mostra/restaura o tempo de execução do hub",
+
+    msg_runtime = "Tempo de Hub ligado: %s",
+    msg_reset_1 = "Tempo de Hub ligado foi restaurado.",
+    msg_reset_2 = "Tempo de Hub ligado foi restaurado por: %s",
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_usage = "Uso: [+!#]runtime show|reset",
+
+    msg_years = " anos, ",
+    msg_days = " dias, ",
+    msg_hours = " horas, ",
+    msg_minutes = " minutos, ",
+    msg_seconds = " segundos",
+
+    ucmd_menu_show = { "Hub", "Núcleo", "Tempo de Hub Ligado", "Mostrar" },
+    ucmd_menu_reset = { "Hub", "Núcleo", "Tempo de Hub Ligado", "restaurar", "OK" },
+
+}

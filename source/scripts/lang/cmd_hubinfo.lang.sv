@@ -39,11 +39,11 @@
         Skript som körs:    %s
         Minnesanvändning:    %s
         
-        Hubbutdelning: %s 
+        Hubbutdelning:  %s 
         
         Hubbens hemsida: %s
         Hubbens nät:         %s
-        Hubbägare:     %s
+        Hubbägare:  %s
 
         [ ANVÄNDARE ]
 

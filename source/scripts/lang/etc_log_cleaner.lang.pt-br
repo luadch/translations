@@ -1,0 +1,19 @@
+﻿return {
+
+    help_title = "etc_log_cleaner.lua",
+    help_usage = "[+!#]cleanlog error|cmd",
+    help_desc = "Limpar arquivos de registro",
+
+    failmsg = "Você não tem permissão para usar este comando.",
+    msg_usage = "Uso: [+!#]cleanlog error|cmd",
+
+    activate_error_msg = "A limpeza de 'error.log' está desabilitada",
+    activate_cmd_msg = "A limpeza de 'cmd.log' está desabilitada",
+
+    logfile_error_msg = "O 'error.log' foi limpo",
+    logfile_cmd_msg = "O 'cmd.log' foi limpo",
+
+    ucmd_menu_error = { "Hub", "Logs", "limpar", "error.log" },
+    ucmd_menu_cmd = { "Hub", "Logs", "limpar", "cmd.log" },
+
+}

@@ -1,0 +1,26 @@
+﻿return {
+
+    help_title = "cmd_shutdown.lua",
+    help_usage = "[+!#]shutdown [<MSG>]",
+    help_desc = "Desligar hub",
+
+    ucmd_menu = { "Hub", "Núcleo", "Desligar Hub", "CLICK" },
+    ucmd_msg = "Mensagem em Massa (opcional)",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_ok = "Desligando hub...",
+
+    msg_countdown = "*** Hub desligará em ***",
+
+    msg_shutdown = [[
+
+
+===DESLIGAR  HUB  ======================================================================================================
+
+  %s
+
+====================================================================================================== DESLIGAR HUB ===
+
+  ]],
+
+}

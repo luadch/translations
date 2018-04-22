@@ -1,0 +1,18 @@
+local pt-br = { }
+
+pt-br.hub_login_message = "Este servidor está executando %s %s %s (Tempo: %d dias, %d horas, %d minutos, %d segundos)"
+pt-br.hub_nick_or_cid_taken = "Apelido/CID tomado."
+pt-br.hub_hub_is_full = "Hub está cheio."
+pt-br.hub_no_base_support = "Seu Cliente não suporta BASE."
+pt-br.hub_no_cid_nick_found = "Nenhum CID/PID/apelido encontrado nas suas INF."
+pt-br.hub_cid_taken = "Sua CID está tomada."
+pt-br.hub_cid_taken = "Seu apelido está tomado."
+pt-br.hub_invalid_pid = "Seu PID é inválido."
+pt-br.hub_invalid_ip = "Seu IP no INF não corresponde com seu IP real. Real IP/Seu IP: "
+pt-br.hub_reg_only = "Para usuários registrados somente."
+pt-br.hub_invalid_pass = "Senha inválida."
+pt-br.hub_unknown = "<UNKNOWN>"
+pt-br.hub_max_bad_password = "Má Senha incorreta excedida. Tempo limite em segundos: "
+pt-br.hub_hubbot_response = "Eu sou o Hubbot, você realmente quer falar comigo?"
+
+return pt-br

@@ -1,0 +1,5 @@
+﻿return {
+
+    msg_sharelimits = "Compartilhamento min/max do Hub: %s/%s  Seu compartilhamento: %s",
+
+}

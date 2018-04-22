@@ -1,0 +1,26 @@
+﻿return {
+
+    help_title = "cmd_usersearch.lua",
+    help_usage = "[+!#]usersearch <SEARCHSTRING>",
+    help_desc = "Buscar por usuário na lista de registrados",
+
+    msg_max_limit = "\n\tLimite máximo para exibição alcançado, usar termos mais específicos para a busca",
+
+    ucmd_menu = { "Hub", "etc", "Busca por Usuário" },
+    ucmd_popup = "Busca apeliido registrado",
+
+    msg_result = "\n\tApelido: %s \n\tNível: %s\n\tSenha: %s\n\tRegistrado por: %s\n\tRegistrado desde: %s\n\tVisto pela última vez: %s",
+    msg_result_nick = "\n\tApelido: %s",
+    msg_no_matches = "Nenhuma resultado encontrado",
+    msg_no_allowed = "Não é permitido ver",
+    msg_unknown = "<DESCONHECIDO>",
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_online = "usuário está online",
+
+    msg_years = " anos, ",
+    msg_days = " dias, ",
+    msg_hours = " horas, ",
+    msg_minutes = " minutos, ",
+    msg_seconds = " segundos",
+
+}

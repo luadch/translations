@@ -1,0 +1,30 @@
+﻿return {
+
+    help_title = "cmd_nickchange.lua",
+    help_usage = "[+!#]nickchange mynick <NEW_NICK>  /  [+!#]nickchange othernick <OLD_NICK> <NEW_NICK>",
+    help_desc = "Muda apelido do usuário",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_denied2 = "Você não tem permissão para mudar o apelido para este usuário.",
+    msg_nochange = "Não há necessidade de mudar.",
+    msg_nicktaken = "Apelido já está em uso.",
+    msg_ok = "Apelido foi mudado para: ",
+    msg_disconnect = "Mudança de apelido com sucesso, favor, reconectar com seu novo apelido.",
+    msg_usage = "Uso: [+!#]nickchange mynick <NEW_NICK>  /  [+!#]nickchange othernick <OLD_NICK> <NEW_NICK>",
+    msg_length = "Restrições de apelido min/max: %s/%s",
+    msg_op = "Usuário  %s  mudou seu próprio apelido para: %s",
+    msg_op2 = "Usuário  %s  mudou o apelido do usuário: %s  para: %s",
+
+    ucmd_menu_ct1_0 = { "Usuário", "Controle", "Mudar", "Apelido", "por APELIDO" },
+    ucmd_menu_ct1_1 = { "Sobre Você", "mudar Apelido" },
+    ucmd_menu_ct1_2 = "Usuário",
+    ucmd_menu_ct1_3 = "Controle",
+    ucmd_menu_ct1_4 = "Mudar",
+    ucmd_menu_ct1_5 = "Apelido",
+    ucmd_menu_ct1_6 = "por APELIDO da lista",
+    ucmd_menu_ct2_1 = { "Mudar", "Apelido" },
+    
+    ucmd_popup = "Novo Apelido:",
+    ucmd_popup2 = "Apelido",
+    
+}

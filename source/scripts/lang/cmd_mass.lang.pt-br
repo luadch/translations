@@ -1,0 +1,61 @@
+﻿return {
+
+    help_title = "cmd_mass.lua - Users",
+    help_usage = "[+!#]mass <MSG>",
+    help_desc = "Envia uma pm com <MSG> para todos os usuários",
+
+    help_title_op = "cmd_mass.lua - Ops",
+    help_usage_op = "[+!#]masslvl <LEVEL> <MSG> / [+!#]masshub <MSG>",
+    help_desc_op = "Envia uma pm com <MSG> para todos os usuários do nível específico / envia uma pm com <MSG> sem remetente",
+
+    ucmd_menu = { "Usuário", "Mensagens", "Em Massa", "para todos" },
+    ucmd_menu_hub = { "Usuário", "Mensagens", "Em Massa", "para todos (sem remetente)" },
+    ucmd_menu_1 = "Usuário",
+    ucmd_menu_2 = "Mensagens",
+    ucmd_menu_3 = "Em Massa",
+    ucmd_menu_4 = "para nível",
+    ucmd_what =  "Mensagem:",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_usage = "Uso: [+!#]mass <MSG>",
+    msg_usage_lvl = "Uso: [+!#]masslvl <LEVEL> <MSG>",
+    msg_usage_hub = "Uso: [+!#]masshub <MSG>",
+    msg_lvl_exists = "Nível  %s  não existe.",
+    msg_ok = "Mensagem foi enviada para todos usuários com nível: ",
+    msg_out = [[
+
+
+=== MENSAGEM EM MASSA======================================================================================================
+
+Remetente:  %s   |   Data:  %s   |   Hora:  %s
+
+Mensagem:  %s
+
+====================================================================================================== MENSAGEM EM MASSA ===
+  ]],
+
+    msg_out_lvl = [[
+
+
+=== MENSAGEM EM MASSA======================================================================================================
+
+Remetente:  %s   |   Data:  %s   |   Hora:  %s  |  Enviado para todos os usuários com nível:  %s
+
+Mensagem:  %s
+
+====================================================================================================== MENSAGEM EM MASSA ===
+  ]],
+
+    msg_out_hub = [[
+
+
+=== MENSAGEM EM MASSA======================================================================================================
+
+Data:  %s   |   Hora:  %s
+
+Mensagem:  %s
+
+====================================================================================================== MENSAGEM EM MASSA ===
+  ]],
+
+}

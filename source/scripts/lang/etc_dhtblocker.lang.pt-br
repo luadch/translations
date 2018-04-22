@@ -1,0 +1,6 @@
+﻿return {
+
+    report_msg = "%s foi banido por %s minutos porque está com a função DHT ativa.",
+    msg_reason = "Ativa função DHT",
+
+}

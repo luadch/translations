@@ -1,0 +1,12 @@
+﻿return {
+
+    help_title = "cmd_talk.lua",
+    help_usage = "[+!#]talk <MSG>",
+    help_desc = "Fala sem apelido",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    ucmd_menu = { "Usuário", "Mensagens", "Falar" },
+    ucmd_what = "Mensagem:",
+    msg_usage = "Uso: [+!#]talk <MSG>",
+
+}

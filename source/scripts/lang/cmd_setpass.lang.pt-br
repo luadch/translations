@@ -1,0 +1,29 @@
+﻿return {
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_nochange = "Não há mudanças necessárias.",
+    msg_usage = "Uso: [+!#]setpass nick <NICK> <PASS>  /  [+!#]setpass nick myself <PASS>",
+    msg_god = "Você não tem permissão para alterar a senha deste usuário.",
+    msg_reg = "Usuário não está registrado ou é um bot.",
+    msg_ok = "Senha foi mudada para: ",
+    msg_ok2 = "Sua senha foi mudada para: ",
+    msg_min_length = "O comprimento mínimo da senha é: %s",
+    msg_max_length = "O comprimento máximo da senha é: %s",
+
+    help_title = "cmd_setpass.lua",
+    help_usage = "[+!#]setpass nick <NICK> <PASS>  /  [+!#]setpass nick myself <PASS>",
+    help_desc = "Define a senha de um usuário ou de você mesmo",
+
+    ucmd_menu_ct1_0 = { "Usuário", "Controle", "Mudar", "Senha", "por APELIDO" },
+    ucmd_menu_ct1_1 = { "Sobre Você", "mudar Senha" },
+    ucmd_menu_ct1_2 = "Usuário",
+    ucmd_menu_ct1_3 = "Controle",
+    ucmd_menu_ct1_4 = "Mudar",
+    ucmd_menu_ct1_5 = "Senha",
+    ucmd_menu_ct1_6 = "por APELIDO da lista",
+    ucmd_menu_ct2_1 = { "Mudar", "Senha" },
+
+    ucmd_pass = "Senha:",
+    ucmd_nick = "Apelido:",
+
+}

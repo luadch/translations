@@ -1,0 +1,14 @@
+﻿return {
+
+    help_title = "cmd_myip.lua",
+    help_usage = "[+!#]myip [<NICK>]",
+    help_desc = "Mostra IP de um usuário ou de você mesmo",
+
+    ucmd_menu_ct1 = { "Sobre Você", "mostrar IP" },
+    ucmd_menu_ct2 = { "Mostrar", "IP" },
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_ip = "Seu IP é: ",
+    msg_targetip = "Nome do usuário: %s  |  IP: %s",
+
+}

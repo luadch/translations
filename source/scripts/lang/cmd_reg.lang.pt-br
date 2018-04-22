@@ -1,0 +1,51 @@
+﻿return {
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_import = "Erro enquanto importando módulo adicional.",
+    msg_report = "Usuário  %s  registrado  %s  com nível  %d [ %s ]",
+    msg_level = "Você não tem permissão para registrar este nível.",
+    msg_usage = "Uso: [+!#]reg nick <NICK> <LEVEL> [<COMMENT>] / [+!#]reg desc <NICK> <COMMENT> (um comentário vazio remove um comentário existente)",
+    msg_error = "Um erro ocorreu: ",
+    msg_ok = "Usuário registrado com seguintes parâmetros: Apelido: %s | Senha: %s | Nível: %s [ %s ]",
+    msg_accinfo = [[
+
+
+=== CONTA ========================================
+
+    Apelido: %s
+    Senha: %s
+
+    Nível: %s  [ %s ]
+
+    Nome do hub: %s
+    Endereço do hub: %s
+
+======================================== CONTA ===
+
+        ]],
+
+    help_title = "cmd_reg.lua",
+    help_usage = "[+!#]reg nick <NICK> <LEVEL> [<COMMENT>] / [+!#]reg desc <NICK> <COMMENT> (um comentário vazio remove um comentário existente)",
+    help_desc = "Registrar um novo usuário / adicionar um comentário à um usuário existente",
+
+    ucmd_menu_ct1_1 = "Usuário",
+    ucmd_menu_ct1_2 = "Controle",
+    ucmd_menu_ct1_3 = "Reg",
+    ucmd_menu_ct2 = { "Reg", "OK" },
+    ucmd_passwort = "Senha:",
+    ucmd_level = "Nível:",
+    ucmd_nick = "Apelido:",
+    ucmd_desc = "Comentário (opcional):",
+
+    msg_blacklist1 = "Erro: Este Usuário está na lista negra!",
+    msg_blacklist2 = "Razão: ",
+    msg_blacklist3 = "Excluído em: ",
+    msg_blacklist4 = "Excluído por: ",
+
+    ucmd_menu_ct3 = { "Usuário", "Controle", "Mudar", "Comentário", "adicionar//mudar comentário do usuário registrado" },
+    ucmd_menu_ct4 = { "Mudar", "Comentário", "adicionar//mudar comentário para um usuário registrado" },
+    ucmd_desc2 = "Comentário:",
+    msg_desc = "Usuário: %s  adicionado/mudado um comentário para/de usuário registrado: %s  comentário: %s",
+    msg_length = "Restrições para apelidos min/max: %s/%s",
+
+}

@@ -1,0 +1,20 @@
+﻿return {
+
+    help_title = "usr_hide_share.lua",
+    help_usage = "[+!#]hideshare <NICK>",
+    help_desc = "Ocultar/mostrar o compartilhamento de um usuário",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_isbot = "Usuário é um bot.",
+    msg_notonline = "Usuário está offline.",
+    msg_usage = "Uso: [+!#]hideshare <NICK>",
+
+    msg_default = "O compartilhamento deste usuário está oculto devido aos níveis de permissão.",
+    msg_hide_user = "Compartilhar oculto para: %s",
+    msg_hide_target = "Seu compartilhamento foi ocultado por: %s",
+    msg_unhide_user = "Compartilhamento restaurado para: %s  |  Usuário foi desconectado",
+    msg_unhide_target = "Seu compartilhamento foi restaurada por: %s  |  Portanto, você será desconectado agora",
+
+    ucmd_menu_ct2_1 = { "Alterar", "Compartilhamento", "esconder//mostrar" },
+
+}

@@ -1,0 +1,27 @@
+﻿return {
+
+    help_title = "cmd_sslinfo.lua",
+    help_usage = "[+!#]sslinfo [<NICK>]",
+    help_desc = "Mostra informações SSL sobre o cliente e a conexão do hub para você ou outros usuários",
+
+    ucmd_menu_ct1 = { "Sobre Você", "mostrar Client2Hub SSL info" },
+    ucmd_menu_ct2 = { "Mostrar", "Client2Hub SSL info" },
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_isbot = "Usuário é um bot.",
+    msg_notfound = "Usuário não encontrado.",
+
+    msg_out = [[
+
+
+=== SSL INFO =====================================
+
+    Informações de conexão SSL de cliente para hub
+
+    Usuário:  %s
+
+%s
+===================================== SSL INFO ===
+  ]],
+
+}

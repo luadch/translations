@@ -1,0 +1,54 @@
+﻿return {
+
+    help_title = "usr_uptime.lua",
+    help_usage = "[+!#]useruptime",
+    help_desc = "Mostra suas estatísticas de tempo de atividade",
+
+    help_title_op = "usr_uptime.lua - Operators",
+    help_usage_op = "[+!#]useruptime CT1 <FIRSTNICK> | CT2 <NICK>",
+    help_desc_op = "Mostra as estatísticas de tempo de atividade de um usuário",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_usage = "[+!#]useruptime CT1 <FIRSTNICK> | CT2 <NICK>",
+    msg_notfound = "Usuário não encontrado.",
+    msg_days = " dias, ",
+    msg_hours = " horas, ",
+    msg_minutes = " minutos, ",
+    msg_seconds = " segundos",
+    msg_label = "\tYEAR\t\tMONTH\t\tUPTIME",
+
+    ucmd_menu_ct1 = { "Usuário", "Estatísticas de tempo de atividade" },
+    ucmd_menu_ct1_2 = { "Sobre Você", "mostrar Estatísticas de tempo de atividade" },
+    ucmd_menu_ct2 = { "Mostrar", "Estatísticas de tempo de atividade" },
+    ucmd_desc = "Usuários com apelido sem nicktag:",
+
+    month_name = {
+
+        [ 1 ] = "Janeiro\t",
+        [ 2 ] = "Fevereiro\t",
+        [ 3 ] = "Março\t",
+        [ 4 ] = "Abril\t",
+        [ 5 ] = "Maio\t",
+        [ 6 ] = "Junho\t",
+        [ 7 ] = "Julho\t",
+        [ 8 ] = "Agosto\t",
+        [ 9 ] = "Setembro",
+        [ 10 ] = "Outubro\t",
+        [ 11 ] = "Novembro",
+        [ 12 ] = "Dezembro",
+    },
+
+    msg_uptime = [[
+
+
+=== TEMPO EM ATIVIDADE DO USUÁRIO ========================================================================
+
+        Estatísticas de tempo de atividade sobre:  %s
+
+%s
+%s
+%s
+======================================================================== TEMPO EM ATIVIDADE DO USUÁRIO ===
+  ]],
+
+}

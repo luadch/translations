@@ -1,0 +1,57 @@
+﻿return {
+
+help_title = "bot_opchat.lua",
+help_desc = "Bate-papo para Operadores",
+
+msg_help_1 = "  [+!#]help \t | Lista comandos disponíveis no bate-papo",
+msg_help_2 = "  [+!#]history \t | Mostrar os últimos posts do bate-papo",
+msg_help_3 = "  [+!#]historyall \t | Mostrar todos posts salvos do bate-papo",
+msg_help_7 = "  [+!#]historyclear \t | Limpar histórico",
+
+msg_help_4 = "  [+!#]opchat help",
+msg_help_5 = "  [+!#]opchat history",
+msg_help_6 = "  [+!#]opchat historyall",
+msg_help_8 = "  [+!#]opchat historyclear",
+
+ucmd_menu_ct1_help = { "Usuário", "Mensagens", "Bate-papos", "OpChat", "mostrar ajuda" },
+ucmd_menu_ct1_history = { "Usuário", "Mensagens", "Bate-papos", "OpChat", "mostrar histórico do bate-papo (últimas)" },
+ucmd_menu_ct1_historyall = { "Usuário", "Mensagens", "Bate-papos", "OpChat", "mostrar histórico do bate-papo (todos salvos)" },
+ucmd_menu_ct1_historyclear = { "Usuário", "Mensagens", "Bate-papos", "OpChat", "limpar histórico" },
+
+msg_denied = "Você não tem permissão para usar este comando.",
+msg_denied_2 = "Você não tem permissão para usar este bate-papo.",
+msg_intro = "\t\t\t\t   Os últimos %s posts do bate-papo:",
+msg_clear = "Histórico do Bate-papo foi limpo.",
+
+msg_history = [[
+
+
+========== CHATLOG ==============================================================================
+%s
+%s
+============================================================================== CHATLOG ==========
+  ]],
+
+msg_help_op = [[
+
+
+                                === AJUDA==========================================
+
+                                Lista de todos comandos no bate-papo:
+
+                                %s
+                                %s
+                                %s
+                                %s
+
+                                Lista de todos comandos principais:
+
+                                %s
+                                %s
+                                %s
+                                %s
+
+                                ========================================== AJUDA===
+  ]],
+
+}

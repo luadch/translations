@@ -1,0 +1,37 @@
+﻿return {
+
+    help_title = "etc_records.lua - Users",
+    help_usage = "[+!#]records show",
+    help_desc = "Envia os recordes do hub para o usuário",
+    help_titleo = "etc_records.lua - Owners",
+    help_usageo = "[+!#]records show|reset",
+    help_desco = "Envia os recordes do hub para o usuário|restaurar o banco de dados de recordes",
+
+    help_err = "Você não tem permissão para usar este comando.",
+    help_err_wrong_id_reg = "\n\t\t Entrada errada, por favor tente novamente com: \n\n\t\t %s \n\t\t %s ",
+    help_err_wrong_id_o = "\n\t\t Entrada errada, por favor tente novamente com: \n\n\t\t %s \n\t\t %s \n\n\t\t %s \n\t\t %s ",
+
+    msg_reseted = "Recordes do Hub: com sucesso redefinir banco de dados",
+    msg_hmsg = "Recordes do Hub: Novo recorde de compartilhamento no hub: %s %s",
+    msg_umsg = "Recordes do Hub: Novo recorde  compartilhamento do usuário: %s",
+    msg_tmsg = "Recordes do Hub: Usuário %s quebrou o recorde de compartilhamento com: %s %s",
+
+    msg_rmsg = [[
+
+    
+=== RECORDES ==========================================
+
+    Estatísticas dos recordes do hub:
+
+    Máximo de usuários:  %s Usuários, Data: %s, Hora: %s
+    Máximo de compartilhamento do hub:  %s %s, Data: %s, Hora: %s
+    Melhor Compartilhador:  %s com %s %s
+    
+========================================== RECORDES ===
+
+   ]],
+
+    ucmd_menu = { "Geral", "Recordes do Hub" },
+    ucmd_menu_reset = { "Hub", "etc", "Recordes do Hub", "restaurar banco de dados" },
+
+}

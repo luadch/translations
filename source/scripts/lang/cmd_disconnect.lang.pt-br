@@ -1,0 +1,21 @@
+﻿return {
+
+    help_title = "cmd_disconnect.lua",
+    help_usage = "[+!#]disconnect <NICK> <REASON>",
+    help_desc = "Desconecta um usuário",
+
+    user_msg = "Você foi desconectado por: %s  motivo: %s",
+    report_msg = "Usuário  %s  foi desconectado por  %s  motivo: %s",
+    
+    msg_denied1 = "Você não tem permissão para usar este comando.",
+    msg_denied2 = "Você não pode desconectar usuários superiores.",
+    msg_denied3 = "Você não pode desconectar a si mesmo.",
+    msg_denied4 = "Usuário está offline.",
+    msg_bot = "Erro: Usuário é um bot.",
+    
+    ucmd_target = "Nome do usuário",
+    ucmd_reason = "Razão",
+    ucmd_menu1 = { "Usuário", "Controle", "Desconectar", "por APELIDO" },
+    ucmd_menu2 =  { "Desconectar", "OK" },
+
+}

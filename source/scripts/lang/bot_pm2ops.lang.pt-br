@@ -1,0 +1,7 @@
+﻿return {
+
+    msg_denied = "Você não tem permissão para usar este bate-papo.",
+    msg_send = "Feito, sua mensagem foi enviada com sucesso para todos Operadores.",
+    msg_toops = "Nova  %s  mensagem de:  %s  |  Msg: %s",
+
+}

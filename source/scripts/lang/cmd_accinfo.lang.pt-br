@@ -1,0 +1,85 @@
+﻿return {
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_usage = "Uso: [+!#]accinfo sid|nick|cid <SID>|<NICK>|<CID> / [+!#]accinfoop sid|nick|cid <SID>|<NICK>|<CID>",
+    msg_off = "Usuário não encontrado/registrado.",
+    msg_god = "Você não tem permissão para usar este comando ou usuário alvo tem um nível mais alto que você.",
+
+    msg_unknown = "<DESCONHECIDO>",
+    msg_online = "usuário está online",
+    msg_accinfo = [[
+
+
+=== ACCINFO ========================================
+
+    Apelido: %s
+    Nível: %s  [ %s ]
+    Senha: %s
+
+    Registrado por: %s
+    Registrado desde: %s
+    Comentário: %s
+
+    Última vez visto: %s
+
+    Nome do hub: %s
+    Endereço do hub: %s
+
+======================================== ACCINFO ===
+
+   ]],
+
+    msg_accinfo2 = [[
+
+
+=== ACCINFO ========================================
+
+    Apelido: %s
+    Nível: %s  [ %s ]
+    Senha: %s
+
+    Registrado por: %s
+    Registrado desde: %s
+
+    Última vez visto: %s
+
+    Nome do hub: %s
+    Endereço do hub: %s
+
+======================================== ACCINFO ===
+
+   ]],
+
+    help_title = "cmd_accinfo.lua - Users",
+    help_usage = "[+!#]accinfo sid|nick|cid <SID>|<NICK>|<CID>",
+    help_desc = "Envia accinfo sobre um usuário registrado pelo SID, NICK ou CID; sem argumentos -> sobre você mesmo",
+
+    help_title2 = "cmd_accinfo.lua - Operators",
+    help_usage2 = "[+!#]accinfoop sid|nick|cid <SID>|<NICK>|<CID>",
+    help_desc2 = "Envia accinfo (com comentário) sobre um usuário registrado pelo SID, NICK ou CID; sem argumentos -> sobre você mesmo",
+
+    ucmd_nick = "Apelido:",
+    ucmd_cid = "CID:",
+
+    ucmd_menu_ct0 = { "Sobre Você", "mostrar Accinfo" },
+    ucmd_menu_ct1 = { "Usuário", "Accinfo", "sem comentário", "por APELIDO" },
+    ucmd_menu_ct2 = { "Usuário", "Accinfo", "sem comentário", "por CID" },
+    ucmd_menu_ct3 = { "Mostrar", "Accinfo", "sem comentário" },
+    ucmd_menu_ct4 = "Usuário",
+    ucmd_menu_ct5 = "Accinfo",
+    ucmd_menu_ct6 = "por APELIDO da lista",
+
+    ucmd_menu_ct1_op = { "Usuário", "Accinfo", "com comentário", "por APELIDO" },
+    ucmd_menu_ct2_op = { "Usuário", "Accinfo", "com comentário", "por CID" },
+    ucmd_menu_ct3_op = { "Mostrar", "Accinfo", "com comentário" },
+    ucmd_menu_ct4_op = "Usuário",
+    ucmd_menu_ct5_op = "Accinfo (com comentário)",
+    ucmd_menu_ct6_op = "por APELIDO da lista",
+
+    msg_years = " anos, ",
+    msg_days = " dias, ",
+    msg_hours = " horas, ",
+    msg_minutes = " minutos, ",
+    msg_seconds = " segundos atrás",
+
+}

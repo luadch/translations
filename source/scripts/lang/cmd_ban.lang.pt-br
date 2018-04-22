@@ -1,0 +1,96 @@
+﻿return {
+
+    help_title = "cmd_ban.lua - Ban",
+    help_usage = "[+!#]ban sid|nick|cid <SID>|<NICK>|<CID> [<TIME> <REASON>] / [+!#]ban show|showhis|clear|clearhis",
+    help_desc = "Bane um usuário; <TIME> são banimentos em minutos; valores negativos significa banimento eterno",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_notint = "Não é permitido uso de números decimais para tempo de banimento.",
+    msg_import = "Erro enquanto importando módulo adicional.",
+    msg_reason = "Sem razão.",
+    msg_usage = "Uso: [+!#]ban sid|nick|cid|ip <SID>|<NICK>|<CID>|<IP> [<TIME> <REASON>] / [+!#]ban show|showhis|clear|clearhis",
+    msg_off = "Usuário não encontrado.",
+    msg_god = "Você não pode banir um usuário com nível mais alto que o seu.",
+    msg_bot = "Usuário é um bot.",
+    msg_ban = "Você foi banido por:  %s  |  razão: %s  |  Tempo restante de ban: ",
+    msg_ok = "%s  foi banido por  %s  |  tempo de ban: %s  |  razão: %s",
+    msg_ban_added = "%s:  %s foi banido por  %s",
+    msg_ban_attempt = "Usuário  %s  com nível mais baixo que o seu tentou banir você. Razão: %s",
+    msg_clean_bans = "Quadro de Ban foi limpado por: ",
+    msg_clean_banhistory = "Histórico de ban foi limpado por: ",
+
+    msg_days = " dias, ",
+    msg_hours = " horas, ",
+    msg_minutes = " minutos, ",
+    msg_seconds = " segundos",
+    msg_forever = "pra sempre",
+
+    ucmd_menu1 = { "Banir", "1 hora" },
+    ucmd_menu2 = { "Banir", "2 horas" },
+    ucmd_menu3 = { "Banir", "6 horas" },
+    ucmd_menu4 = { "Banir", "12 horas" },
+    ucmd_menu5 = { "Banir", "1 dia" },
+    ucmd_menu6 = { "Banir", "2 dias" },
+    ucmd_menu7 = { "Banir", "1 semana" },
+    ucmd_menu8 = { "Banir", "outro" },
+    ucmd_menu9 = { "Usuário", "Controle", "Banir", "por APELIDO" },
+    ucmd_menu10 = { "Usuário", "Controle", "Banir", "por CID" },
+    ucmd_menu11 = { "Usuário", "Controle", "Banir", "por IP" },
+    ucmd_menu12 = { "Usuário", "Controle", "Banir", "mostrar", "bans" },
+    ucmd_menu13 = { "Usuário", "Controle", "Banir", "limpar", "bans" },
+    ucmd_menu14 = { "Usuário", "Controle", "Banir", "mostrar", "histórico de ban" },
+    ucmd_menu15 = { "Usuário", "Controle", "Banir", "limpar", "histórico de ban" },
+
+    ucmd_time = "Tempo em minutos (padrão: %s)",
+    ucmd_reason = "Razão",
+
+    lblNick = " Apelido:       ",
+    lblCid = " CID:        ",
+    lblIp = " IP:           ",
+    lblReason = " Razão:  ",
+    lblBy = " Banido por: ",
+    lblTime = " Banido até: ",
+
+    msg_his_nick = "Apelido: ",
+    msg_his_ban = "Ban #",
+    msg_his_date = "Data: ",
+    msg_his_bantime = "Tempo de ban: ",
+    msg_his_reason = "Razão: ",
+    msg_his_by = "Banido por: ",
+    msg_his_state = "Estado: ",
+    msg_his_active = "ativo",
+    msg_his_expired = "expirado",
+
+    msg_out = [[
+
+
+=== BANS =====================================================================================
+%s
+===================================================================================== BANS ===
+  ]],
+
+    msg_out2 = [[
+
+
+=== HISTÓRICO  DE BANIMENTOS ===============================================================================
+%s
+=============================================================================== HISTÓRICO DA BANIMENTOS ===
+  ]],
+
+    help_title2 = "cmd_ban.lua - Unban",
+    help_usage2 = "[+!#]unban ip|nick|cid <IP>|<NICK>|<CID>",
+    help_desc2 = "Desbane usuário pelo IP ou NICK ou CID",
+
+    msg_usage2 = "Uso: [+!#]unban ip|nick|cid <IP>|<nick>|<CID>",
+    msg_god2 = "Você não tem permissão para desbanir este usuário.",
+    msg_ok2 = "Usuário  %s  ban removido de  %s.",
+
+    ucmd_menu_ct1_1 = { "Usuário", "Controle", "Desbanir", "por APELIDO" },
+    ucmd_menu_ct1_2 = { "Usuário", "Controle", "Desbanir", "por CID" },
+    ucmd_menu_ct1_3 = { "Usuário", "Controle", "Desbanir", "por IP" },
+
+    ucmd_ip = "IP:",
+    ucmd_cid = "CID:",
+    ucmd_nick = "Apelido:",
+
+}

@@ -1,0 +1,5 @@
+﻿return {
+
+    msg_invalid = "Parâmetro com nome inválido em inf: ",
+
+}

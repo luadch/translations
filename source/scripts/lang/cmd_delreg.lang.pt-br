@@ -1,0 +1,22 @@
+﻿return {
+
+    msg_denied = "Você não tem permissão para usar este comando ou o delreg alvos com este nível.",
+    msg_import = "Erro enquanto importando um módulo adicional.",
+    msg_usage = "Uso: [+!#]delreg nick <NICK>  /  ou del com entrada de lista negra:  [+!#]delreg nick <NICK> <DESCRIPTION>",
+    msg_error = "Um erro ocorreu: ",
+    msg_del = "Você foi  desregistrado.",
+    msg_bot = "Erro: Usuário é um bot.",
+    msg_ok = "Usuário  %s  foi desregistrado por  %s",
+    msg_ok2 = "%s  foi desregistrado e colocado na lista negra por  %s  razão: %s",
+    msg_notfound = "Usuário não registrado.",
+
+    help_title = "cmd_delreg.lua",
+    help_usage = "[+!#]delreg nick <NICK>  /  or del com entrada na lista negra:  [+!#]delreg nick <NICK> <DESCRIPTION>",
+    help_desc = "Desregistrar um usuário",
+
+    ucmd_menu_ct1 = { "Usuário", "Controle", "Desregistrar", "por APELIDO" },
+    ucmd_menu_ct2 = { "Desregistrar", "OK" },
+    ucmd_nick = "Apelido:",
+    ucmd_reason = "Razão: (nenhum entrada da lista negra se vazia)",
+
+}

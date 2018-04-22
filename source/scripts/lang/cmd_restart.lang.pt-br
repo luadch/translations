@@ -1,0 +1,26 @@
+﻿return {
+
+    help_title = "cmd_restart.lua",
+    help_usage = "[+!#]restart [<MSG>]",
+    help_desc = "Reinicia hub",
+
+    ucmd_menu = { "Hub", "Núcleo", "Reiniciar Hub", "CLICK" },
+    ucmd_msg = "Mensagem Em Massa (opcional)",
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_ok = "Reiniciar Hub...",
+
+    msg_countdown = "*** Reiniciar Hub em ***",
+
+    msg_restart = [[
+
+
+=== REINICIAR HUB ======================================================================================================
+
+  %s
+
+====================================================================================================== REINICIAR HUB ===
+
+  ]],
+
+}

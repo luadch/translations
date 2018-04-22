@@ -1,0 +1,5 @@
+﻿return {
+
+    msg_slotlimits = "Número mín. slots: %s  |  Número máx. slots: %s  |  Seus slots: %s",
+
+}

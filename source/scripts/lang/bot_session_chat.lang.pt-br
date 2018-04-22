@@ -1,0 +1,73 @@
+﻿return {
+
+help_title = "bot_session_chat.lua",
+help_usage = "[+!#]sessionchat <CHATNAME>",
+help_desc = "Sessões de Bate-papos são bate-papos temporários para cada usuário da sessão",
+
+msg_help_1 = "  [+!#]help  \t| Lista de comandos disponíveis no bate-papo",
+msg_help_2 = "  [+!#]members\t| Lista todos os membros",
+msg_help_3 = "  [+!#]add <NICK>\t| adiciona um novo membro",
+msg_help_4 = "  [+!#]del <NICK>\t| remove um membro existente",
+
+ucmd_menu_ct1_create = { "Usuário", "Mensagens", "Bate-papos", "Sessão de bate-papo", "criar um bate-papo para esta sessão" },
+ucmd_menu_ct1_remove = { "Hub", "etc", "Sessão de bate-papo", "remover todas sessões de bate-papo" },
+ucmd_popup = "Nome do bate-papo (sem espaços!)",
+
+chatdesc = "por: %s | membros: %s",
+
+msg_denied = "Você não tem permissão para usar este comando.",
+msg_denied_2 = "Você não tem permissão para usar este bate-papo.",
+msg_denied_3 = "Você não pode remover a si mesmo.",
+msg_usage = "Uso: [+!#]sessionchat <CHATNAME>",
+msg_already = "Usuário já é membro: ",
+msg_nomember = "Usuário não é membro: ",
+msg_notonline = "Usuário está offline: ",
+msg_welcome = "Bem-vindo ",
+msg_new_member = "O seguinte usuário foi adicionado como um membro: ",
+msg_del = "O seguinte usuário não é mais um membro: ",
+msg_del_2 = "Você não é mais um membro deste bate-papo.",
+msg_delall = "Todas Sessões de Bate-papos removidas.",
+msg_create = "%s foi adicionada uma nova Sessão de Bate-papo: %s",
+msg_create2 = "Você foi adicionado a uma nova Sessão de Bate-papo: %s",
+msg_create3 = "Você é o único que pode adicionar ou remover membros no seu bate-papo.",
+msg_chatexists = "Bate-papo já existe.",
+
+msg_members = [[
+
+
+=== MEMBROS ==============================
+
+%s
+
+============================== MEMBROS ===
+  ]],
+
+msg_help_owner = [[
+
+
+=== AJUDA PROPRIETÁRIO ===================================
+
+Lista de todos comandos no bate-papo:
+
+%s
+%s
+%s
+%s
+
+=================================== AJUDA PROPRIETÁRIO ===
+  ]],
+  
+msg_help_member = [[
+
+
+=== AJUDA MEMBROS =================================
+
+Lista de todos comandos no bate-papo:
+
+%s
+%s
+
+================================= AJUDA MEMBROS ===
+  ]],
+
+}

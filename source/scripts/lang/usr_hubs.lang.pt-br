@@ -1,0 +1,23 @@
+﻿return {
+
+    msg_invalid = "Contagem de Hubs inválida.",
+    msg_max = [[
+
+
+=== CHECAR USUÁRIOS DOS HUBS ===================
+
+Você foi desconectado porque:
+
+Máx. hubs por usuário: %s  |  seus: %s
+Máx. hubs registrados: %s  |  seus: %s
+Máx. hubs op: %s  |  seus: %s
+
+Máx. hubs: %s  |  seus: %s
+
+=================== CHECAR USUÁRIOS DOS HUBS ===
+  ]],
+
+    report_msg = "%s foi banido por %s minutos por causa do limite de hubs de usuários excedidos. Hubs: %s",
+    msg_reason = "Limite de usuários no hub excedido",
+
+}

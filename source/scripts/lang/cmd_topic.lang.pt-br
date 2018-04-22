@@ -1,0 +1,16 @@
+﻿return {
+
+    help_title = "etc_topic.lua",
+    help_usage = "[+!#]topic <NEW-TOPIC>|default",
+    help_desc = "Define um novo tópico ou restaura para o padrão",
+
+    msg_topic_changed = "%s  mudou tópico do hub para: %s   |   antigo tópico era: %s",
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_usage = "Uso: [+!#]topic <NEW-TOPIC>|default",
+    msg_topic_reset = "%s  restaura tópico do hub para o padrão: %s",
+
+    ucmd_popup = "Novo Tópico:",
+    ucmd_menu = { "Hub", "Núcleo", "Tópico do Hub", "definir novo tópico" },
+    ucmd_menu2 = { "Hub", "Núcleo", "Tópico do Hub", "definir padrão" },
+
+}

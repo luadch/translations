@@ -1,0 +1,39 @@
+﻿return {
+
+    msg_denied = "Você não tem permissão para usar este comando.",
+    msg_usage =  "Uso: [+!#]gag mute|kennylize|ungag|show <NICK>",
+    msg_off = "Usuário não encontrado/registrado.",
+    msg_god = "Você não pode silenciar esta Usuário.",
+
+    msg_show_users = [[ 
+
+=== GAG =========================
+
+Usuários silenciados: (%s)
+%s
+
+Kennylized users: (%s)
+%s
+
+========================= MORDAÇA===
+  ]],
+    msg_add_user = "Usuário %s foi silenciado com modo %s por %s",
+    msg_remove_user = "Usuário %s foi desilenciado por %s",
+    msg_error_in = "Usuário já silenciado, remover suas restrições antes de adicionar outro.",
+    msg_error_out = "Usuário %s não tem restrições definidas.",
+    msg_user_restriction_added = "Você foi silenciado com modo: %s",
+    msg_user_restriction_removed = "Suas restrições foram removidas.",
+
+    help_title = "cmd_gag.lua",
+    help_usage = "[+!#]gag mute|kennylize|ungag|show <NICK>",
+    help_desc = "Silencia, kennyzlize ou desilencia um usuário; ou apenas mostra a você os usuários restritos",
+
+    ucmd_nick = "Apelido:",
+
+    ucmd_menu_ct0 = { "Silenciar", "Deixar Usuário Mudo" },
+    ucmd_menu_ct1 = { "Silenciar", "Usuário Kennylize" },
+    ucmd_menu_ct2 = { "Usuário", "Controle", "Silenciar", "mostrar Usuários" },
+    ucmd_menu_ct3 = { "Usuário", "Controle", "Silenciar", "desilenciar Usuário pelo APELIDO" },
+    ucmd_menu_ct4 = { "Silenciar", "Desilenciar Usuário" },
+
+}

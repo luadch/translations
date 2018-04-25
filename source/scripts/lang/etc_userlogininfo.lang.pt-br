@@ -20,7 +20,7 @@
     msg_info = [[
 
 
-=== INFO DO LOGIN DO USUÁRIO ==============================
+=== INFO DA LOGIN DO USUÁRIO ==============================
 
         Seu Apelido:	%s
         Seu IP:	%s
@@ -38,7 +38,7 @@
         Modo TLS:	%s
         Criptografia TLS:	%s
 
-============================== INFO DO LOGIN DO USUÁRIO ===
+============================== INFO DA LOGIN DO USUÁRIO ===
    ]],
 
 }

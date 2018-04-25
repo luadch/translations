@@ -12,7 +12,7 @@
 Usuários silenciados: (%s)
 %s
 
-Kennylized users: (%s)
+Usuários censurados: (%s)
 %s
 
 ========================= MORDAÇA===
@@ -26,12 +26,12 @@ Kennylized users: (%s)
 
     help_title = "cmd_gag.lua",
     help_usage = "[+!#]gag mute|kennylize|ungag|show <NICK>",
-    help_desc = "Silencia, kennyzlize ou desilencia um usuário; ou apenas mostra a você os usuários restritos",
+    help_desc = "Silencia, censura ou desilencia um usuário; ou apenas mostra a você os usuários restritos",
 
     ucmd_nick = "Apelido:",
 
     ucmd_menu_ct0 = { "Silenciar", "Deixar Usuário Mudo" },
-    ucmd_menu_ct1 = { "Silenciar", "Usuário Kennylize" },
+    ucmd_menu_ct1 = { "Silenciar", "Censurar Usuário" },
     ucmd_menu_ct2 = { "Usuário", "Controle", "Silenciar", "mostrar Usuários" },
     ucmd_menu_ct3 = { "Usuário", "Controle", "Silenciar", "desilenciar Usuário pelo APELIDO" },
     ucmd_menu_ct4 = { "Silenciar", "Desilenciar Usuário" },

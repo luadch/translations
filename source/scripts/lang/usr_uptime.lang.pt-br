@@ -15,7 +15,7 @@
     msg_hours = " horas, ",
     msg_minutes = " minutos, ",
     msg_seconds = " segundos",
-    msg_label = "\tYEAR\t\tMONTH\t\tUPTIME",
+    msg_label = "\tANO\t\tMÊS\t\tTEMPODEATIVIDADE",
 
     ucmd_menu_ct1 = { "Usuário", "Estatísticas de tempo de atividade" },
     ucmd_menu_ct1_2 = { "Sobre Você", "mostrar Estatísticas de tempo de atividade" },

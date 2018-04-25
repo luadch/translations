@@ -17,14 +17,14 @@
     msg_uptime = [[
 
     
-=== UPTIME ==========================================================
+=== TEMPO DE ATIVIDADE ==========================================================
 
                   Tempo de atividade do hub (completo):  %s
                   Tempo de atividade do hub (sessão):  %s
                   
                   Seu tempo de atividade:  %s
 
-========================================================== TEMPO DE ATIVIDADE===
+========================================================== TEMPO DE ATIVIDADE ===
   ]],
 
 }

@@ -4,7 +4,7 @@
     msg_max = [[
 
 
-=== CHECAR USUÁRIOS DOS HUBS ===================
+=== CHECAR HUBS DOS USUÁRIOS ===================
 
 Você foi desconectado porque:
 
@@ -14,7 +14,7 @@ Máx. hubs op: %s  |  seus: %s
 
 Máx. hubs: %s  |  seus: %s
 
-=================== CHECAR USUÁRIOS DOS HUBS ===
+=================== CHECAR HUBS DOS USUÁRIOS ===
   ]],
 
     report_msg = "%s foi banido por %s minutos por causa do limite de hubs de usuários excedidos. Hubs: %s",

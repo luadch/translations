@@ -11,19 +11,19 @@
 
     msg_denied = "Você não tem permissão para usar este comando.",
     msg_usage = "Uso: [+!#]history show [<LINES>]  / ou: [+!#]history toggle",
-    msg_leave = "Modo de chat: desligado",
-    msg_join = "Modo de chat: ligado",
+    msg_leave = "Modo de bate-papo: desligado",
+    msg_join = "Modo de bate-papo: ligado",
     msg_del_log = "Chatlog foi limpo.",
     msg_del_exceptions = "A lista de denunciantes de chat foi limpa.",  -- debug
     msg_intro = "\t\t\t\tOs últimos %s posts do principal:",
-    msg_deniers = "Lista de denunciantes de chat:",
+    msg_deniers = "Lista de Chatlog-deniers:",
 
     -- ucmd menu --
     ucmd_menu_toggle = { "Hub", "etc", "Chatlog", "Modo", "ligado\\desligado" },  -- reg
     ucmd_menu_show = { "Hub", "etc", "Chatlog", "mostrar Chatlog" },  -- reg
     ucmd_menu_reset_t_log = { "Hub", "etc", "Chatlog", "Admin", "limpar Chatlog" },  -- owner
     ucmd_menu_showexceptions = { "Hub", "etc", "Chatlog", "Admin", "mostre denunciantes Chatlog" },  -- owner
-    ucmd_menu_reset_t_exceptions = { "Hub", "etc", "Chatlog", "Admin", "limpe Chatlog-deniers" },  -- owner
+    ucmd_menu_reset_t_exceptions = { "Hub", "etc", "Chatlog", "Admin", "limpar Chatlog-deniers" },  -- owner
     ucmd_popup = "Quantos posts?",
 
     logo_1 = [[

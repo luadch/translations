@@ -18,7 +18,7 @@
     msg_04 = "O seguinte usuário foi excluído da Lista Negra: ",
     msg_05 = "Erro: Usuário não encontrado.",
 
-    ucmd_menu_show = { "Hub", "etc", "Lista Negra", "Mostrar" },
+    ucmd_menu_show = { "Hub", "etc", "Lista Negra", "mostrar" },
     ucmd_menu_del = { "Hub", "etc", "Lista Negra", "excluir usuário" },
     ucmd_nick = "Nome do usuário:",
     

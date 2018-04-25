@@ -16,8 +16,8 @@
     msg_ok = "%s  foi banido por  %s  |  tempo de ban: %s  |  razão: %s",
     msg_ban_added = "%s:  %s foi banido por  %s",
     msg_ban_attempt = "Usuário  %s  com nível mais baixo que o seu tentou banir você. Razão: %s",
-    msg_clean_bans = "Quadro de Ban foi limpado por: ",
-    msg_clean_banhistory = "Histórico de ban foi limpado por: ",
+    msg_clean_bans = "Quadro de Ban foi limpo por: ",
+    msg_clean_banhistory = "Histórico de ban foi limpo por: ",
 
     msg_days = " dias, ",
     msg_hours = " horas, ",

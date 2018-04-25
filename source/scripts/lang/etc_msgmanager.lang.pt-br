@@ -1,6 +1,6 @@
 ﻿return {
 
-    msg_denied_main = "Você não tem permissão para escrever mensagens no chat principal.",
+    msg_denied_main = "Você não tem permissão para escrever mensagens no bate-papo principal.",
     msg_denied_pm = "Você não tem permissão para escrever mensagens privadas.",
     
     help_title = "etc_msgmanager.lua",
@@ -67,10 +67,10 @@ Uso:
 
    Script está ativo:  %s
 
-   Bloqueados níveis PRINCIPAL:
+   Níveis bloqueados para PRINCIPAL:
 
 %s
-   Blocked PM levels:
+   Níveis bloqueados para PM:
 
 %s
 ===================================== GERENCIADOR DE MENSAGEM ===

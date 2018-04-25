@@ -33,7 +33,7 @@
     -- error msgs --
     help_err = "Você não tem permissão para usar este comando.",
     help_err_wrong_id = "Você inseriu um ou mais parâmetros errados, tente um destes:  \n\n %s \n\n %s ",
-    help_err_in = "O usuário user  %s  já está protegido",
+    help_err_in = "O usuário %s  já está protegido",
     help_err_out = "O usuário  %s  não está protegido.",
     help_err_off = "Usuário  %s  não foi encontrado.",
 
@@ -47,12 +47,12 @@
     delete_errorprotect = "O Usuário  %s  está protegido.",
     showdeletedmsg = "\n\nTodos os usuários que foram excluídos: \n[Nick] [Pw] [Level] [Date] ",
     changesettingsmsg = "%s  foi definido para  %s",
-    showsettingsmsgprt1 = "\n\nAs configurações: \n\tO máximo de dias off-line por nível para limpeza AUTOMÁTICA:\n\t Limpeza automática completa: %s\n\t",
+    showsettingsmsgprt1 = "\n\nAs configurações: \n\tO máximo de dias offline por nível para limpeza AUTOMÁTICA:\n\t Limpeza automática completa: %s\n\t",
     showsettingsmsgprt2 = " Nível %s: %s dias\n\t",
     showsettingsmsgprt3 = "\n\tAs configurações para limpeza MANUAL:\n\t Dias offline para ver um usuário: %s\n\t".." Verifique todos os usuários abaixo do nível: %s\n",
     tableheader = "[ # ]\t[ nick ]\t\t[ level_nr ]\t[ level_name ]\t[ ever been connected ]\t[ protected ]\t[ offline time ]",
     addedby = " | adicionado por: ",
-    neverbeenonline = "O usuário nunca esteve on-line",
+    neverbeenonline = "O usuário nunca esteve online",
 
     helpmsg = [[
 

@@ -12,7 +12,7 @@ pt-br.hub_invalid_ip = "Seu IP no INF não corresponde com seu IP real. Real IP/
 pt-br.hub_reg_only = "Para usuários registrados somente."
 pt-br.hub_invalid_pass = "Senha inválida."
 pt-br.hub_unknown = "<UNKNOWN>"
-pt-br.hub_max_bad_password = "Má Senha incorreta excedida. Tempo limite em segundos: "
+pt-br.hub_max_bad_password = "Má senha incorreta excedida. Esgotamento em segundos: "
 pt-br.hub_hubbot_response = "Eu sou o Hubbot, você realmente quer falar comigo?"
 
 return pt-br

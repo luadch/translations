@@ -6,7 +6,7 @@
 
     ucmd_menu =  { "Hubb", "Loggar", "visa", "error.log" },
 
-    msg_denied = "Du har inte behörighet att använda detta kommando.",
-    msg_noerrors = "Inga fel",
+    msg_denied = "[ FEL ]--> Du har inte behörighet att använda detta kommando.",
+    msg_noerrors = "[ FEL ]--> Inga fel.",
 
 }

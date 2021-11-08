@@ -8,26 +8,29 @@
     help_usage2 = "[+!#]trafficmanager block <ANVÄNDARNAMN> [<ANLEDNING>] | unblock <ANVÄNDARNAMN>",
     help_desc2 = "Blockerar nedladdningar ( d ), uppladdningar ( u ) och sök ( s ) | Unblock user",
 
-    msg_denied = "Du har inte behörighet att använda detta kommando.",
-    msg_god = "Du har inte behörighet att blockera/avblockera denna användaren.",
-    msg_notonline = "Trafikhanterare: Användaren är frånkopplad.",
-    msg_notfound = "Trafikhanterare: Användaren är inte blockerad.",
-    msg_stillblocked = "Trafikhanterare: Användaren är redan automatiskt blockerad via sin åtkomstnivån.",
-    msg_isbot = "Trafikhanterare: Användaren är en bot.",
-    msg_block = "Trafikhanterare: Blockerat användaren: %s  |  Anledning: %s",
-    msg_unblock = "Trafikhanterare: Tagit bort blockeringen på användaren: %s",
-    msg_op_report_block = "Trafikhanterare:  %s  har blockerat användaren: %s  |  Anledning: %s",
-    msg_op_report_unblock = "Trafikhanterare:  %s  har tagit bort blockeringen på användaren: %s",
-    msg_autoblock = "Trafikhanterare: Användaren har automatiskt blivit blockerad av ett script.",
-    msg_onsearch = "Trafikhanterare: Din sök har inaktiverats.",
+    msg_denied = "[ TRAFIKHANTERARE ]--> Du har inte behörighet att använda detta kommando.",
+    msg_god = "[ TRAFIKHANTERARE ]--> Du har inte behörighet att blockera/ta bort blockeringen på användaren",
+    msg_notregged = "[ TRAFIKHANTERARE ]--> Användaren är inte registrerad.",
+    msg_notfound = "[ TRAFIKHANTERARE ]--> Användaren är inte blockerad.",
+    msg_stillblocked = "[ TRAFIKHANTERARE ]--> Användaren:  %s  |  är redan blockerad av:  %s  |  anledning:  %s",
+    msg_isbot = "[ TRAFIKHANTERARE ]--> Användaren är en bot.",
+    msg_block = "[ TRAFIKHANTERARE ]--> Blockerad användare:  %s  |  anledning:  %s",
+    msg_unblock = "[ TRAFIKHANTERARE ]--> Tagit bort blockering på användaren:  %s",
+    msg_op_report_block = "[ TRAFIKHANTERARE ]--> Användaren:  %s  |  har blockerat användaren:  %s  |  anledning:  %s",
+    msg_op_report_unblock = "[ TRAFIKHANTERARE ]--> Användaren:  %s  |  har tagit bort blockeringen på användaren:  %s",
+    msg_autoblock = "[ TRAFIKHANTERARE ]--> Den här användaren är redan blockerad av skriptbehörigheter.",
+    msg_onsearch = "[ TRAFIKHANTERARE ]--> Din sökfunktion har inaktiverats.",
     msg_unknown = "okänd",
     msg_reason = "Anledning:",
     msg_blocked_by = "Blockerad av:",
-    msg_target_block = "Trafikhanterare: Du har blivit blockerad av: %s  |  Anledning: %s",
-    msg_target_unblock = "Trafikhanterare: Blockering har tagits bort av: %s",
-
+    msg_date = "Blockeringsdatum:",
+    msg_target_block = "[ TRAFIKHANTERARE ]--> Du har blockerats av:  %s  |  anledning:  %s",
+    msg_target_unblock = "[ TRAFIKHANTERARE ]--> Blockering har tagits bort av:  %s",
+    ucmd_nick = "Endast användarnamn:",
     ucmd_menu_ct1_1 = { "Hubb", "etc", "Trafikhanterare", "visa", "inställningar" },
     ucmd_menu_ct1_2 = { "Hubb", "etc", "Trafikhanterare", "visa", "blockerade användare" },
+    ucmd_menu_ct1_3 = { "Användare", "Kontroll", "Trafikhanterare", "blockera användaren" },
+    ucmd_menu_ct1_4 = { "Användare", "Kontroll", "Trafikhanterare", "ta bort blockeringen på användaren" },
     ucmd_menu_ct2_1 = { "Trafikhanterare", "blockera" },
     ucmd_menu_ct2_3 = { "Trafikhanterare", "ta bort blockering" },
     ucmd_desc = "Anledning (valfritt):",
@@ -111,6 +114,10 @@ Användning:
 
 
 === TRAFIKHANTERARE  ========================================================================
+%s
+
+   Blockerade åtkomstnivåer:
+
 %s
 ======================================================================== TRAFIKHANTERARE  ===
   ]],

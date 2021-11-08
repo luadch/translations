@@ -17,8 +17,8 @@ Kennylized användare: (%s)
 
 ========================= TYSTADE ===
   ]],
-    msg_add_user = "Användare %s blev gagged med %s av %s",
-    msg_remove_user = "Användare %s blev ungagged av %s",
+    msg_add_user = "[ GAG ]--> Användaren:  %s  blev gagged med läge:  %s  |  av:  %s",
+    msg_remove_user = "[ GAG ]--> Användaren:  %s  blev ungagged av:  %s",
     msg_error_in = "Användaren är redan gagged, ta bort detta innan du lägger till ännu en.",
     msg_error_out = "Användare %s har inga begränsningar på sig.",
     msg_user_restriction_added = "Du har blivit tystad med typen: %s",

@@ -19,12 +19,18 @@
 
 === HUBBINFO =====================================================================================
 
-        [ HUBB ]
+   [ HUBB ]
 
         Hubbnamn:    %s
         Adress:   %s
+
+        Endast registrerade användare: %s
+
         ADC-port:    %s
         ADCS-port:    %s
+        ADC-port IPv6:  %s
+        ADCS-port IPv6:  %s
+
         Använder SSL:  %s
         TLS-läge:  %s
         Använder keyprint:          %s
@@ -32,29 +38,30 @@
 
         Version:    %s %s
         Copyright:    %s
-        
+
         Drifttid (sammanlagt):  %s
         Drifttid (sen omstart):  %s
-        
+
         Skript som körs:    %s
         Minnesanvändning:    %s
-        
-        Hubbutdelning:  %s 
-        
+
+        Hubbutdelning:  %s
+
         Hubbens hemsida: %s
         Hubbens nät:         %s
+        Hubbens e-postadress:  %s
         Hubbägare:  %s
 
-        [ ANVÄNDARE ]
+   [ ANVÄNDARE ]
 
-        Totalt registrerade användare:  %s
-        Totalt anslutna användare:  %s
-        Anslutna registrerade användare:  %s
-        Anslutna oregistrerade användare: %s
-        Anslutna aktiva användare:  %s
-        Anslutna passiva användare:  %s
+        Totalt registrerade användare:      %s
+        Totalt anslutna användare:            %s
+        Registrerade anslutna användare:   %s
+        Oregistrerade anslutna användare:  %s
+        Aktiva anslutna användare:          %s
+        Passiva anslutna användare:       %s
 
-        [ SYSTEM ]
+   [ SYSTEM ]
 
         Operativsystem:     %s
         Processor:        %s

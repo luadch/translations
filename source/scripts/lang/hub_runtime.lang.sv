@@ -4,7 +4,17 @@
     help_usage = "[+!#]runtime show|reset",
     help_desc = "Visa/nollställ hubbens drifttid",
 
-    msg_runtime = "Hubbens drifttid: %s",
+    msg_runtime = [[
+
+
+=== DRIFTTID ============================================================
+
+               Hubbens drifttid - Sen omstart:   %s
+               Hubbens drifttid - Sammanlagt: %s
+
+============================================================ DRIFTTID ===
+  ]],
+
     msg_reset_1 = "Hubbens drifttid är nollställd.",
     msg_reset_2 = "Hubbens drifttid är nollställd av: %s",
     msg_denied = "Du har inte behörighet att använda detta kommando.",
@@ -18,5 +28,7 @@
 
     ucmd_menu_show = { "Hubb", "Kärna", "Hubbens drifttid", "visa" },
     ucmd_menu_reset = { "Hubb", "Kärna", "Hubbens drifttid", "nollställ", "OK" },
+
+    msg_unknown = "<OKÄNT>",
 
 }

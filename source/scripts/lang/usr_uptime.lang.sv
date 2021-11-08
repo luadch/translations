@@ -15,7 +15,8 @@
     msg_hours = " timmar, ",
     msg_minutes = " minuter, ",
     msg_seconds = " sekunder",
-    msg_label = "\tÅR\t\tMÅNAD\t\tANSLUTEN",
+    msg_label = "\tÅR\tMÅNAD\t\tANSLUTEN",
+    msg_err = "usr_uptime.lua: fel: databasfil (usr_uptime.tbl) trasig eller saknas, en ny fil har skapats.",
 
     ucmd_menu_ct1 = { "Användare", "Anslutningsstatistik" },
     ucmd_menu_ct1_2 = { "Om dig", "visa anslutningsstatistik" },

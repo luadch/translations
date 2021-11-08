@@ -14,11 +14,11 @@
     msg_notfound = "Hittade inte användaren.",
     msg_isbot = "Användaren är en bot.",
 
-    msg_block = "Meddelandehanterare: Blockerat användaren: %s  |  Läge: %s",
-    msg_unblock = "Meddelandehanterare: Tagit bort blockering på användaren: %s",
+    msg_block = "[ MEDDELANDEHANTERARE ]--> Blockerat användaren:  %s  |  läge:  %s",
+    msg_unblock = "[ MEDDELANDEHANTERARE ]-->  Tagit bort blockering på användaren:  %s",
 
-    msg_report_block = "Meddelandehanterare:  %s  har blockerat användaren: %s  |  Läge: %s",
-    msg_report_unblock = "Meddelandehanterare:  %s  har tagit bort blockeringen på användaren: %s",
+    msg_report_block = "[ MEDDELANDEHANTERARE ]--> Användaren:  %s  |  har blockerat användaren:  %s  |  läge:  %s",
+    msg_report_unblock = "[ MEDDELANDEHANTERARE ]--> Använaren:  %s  |  har tagit bort blockeringen på användaren:  %s",
 
     ucmd_menu_ct1_1 = { "Hubb", "etc", "Meddelandehanterare", "visa inställningar" },
     ucmd_menu_ct1_2 = { "Hubb", "etc", "Meddelandehanterare", "visa blockerade användare" },

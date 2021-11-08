@@ -17,7 +17,7 @@ Maximalt tillåtna hubbar: %s  |  du är i: %s
 =================== HUBBKONTROLL FÖR ANVÄNDAREN ===
   ]],
 
-    report_msg = "%s blev bannad i %s minuter därför att hubbegränsningen har överskridits. Hubbar: %s",
+    report_msg = "[ ANVÄNDARHUBBAR ]--> Användaren:  %s  |  blev bannad i  %s  minuter  |  anledning: hubbegränsningen har överskridits. Hubbar:  %s",
     msg_reason = "Överskrider hubbens användarantal",
 
 }

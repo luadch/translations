@@ -15,7 +15,7 @@
     msg_join = "Chattlogg: på",
     msg_del_log = "Chattloggen är rensad.",
     msg_del_exceptions = "Listan över Chattlogg-förnekare är rensad.",  -- debug
-    msg_intro = "\t\t\t\tDe senaste %s posterna från huvudchatten:",
+    msg_intro = "De senaste  %s  inläggen:",
     msg_deniers = "Lista över Chattlogg-förnekare:",
 
     -- ucmd menu --
@@ -24,7 +24,7 @@
     ucmd_menu_reset_t_log = { "Hubb", "etc", "Chattlogg", "Admin", "rensa Chattlogg" },  -- owner
     ucmd_menu_showexceptions = { "Hubb", "etc", "Chattlogg", "Admin", "visa Chattlogg-förnekare" },  -- owner
     ucmd_menu_reset_t_exceptions = { "Hubb", "etc", "Chattlogg", "Admin", "rensa Chattlogg-förnekare" },  -- owner
-    ucmd_popup = "Hur många poster?",
+    ucmd_popup = "Hur många inlägg?",
 
     logo_1 = [[
 

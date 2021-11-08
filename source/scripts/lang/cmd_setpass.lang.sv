@@ -12,7 +12,7 @@
 
     help_title = "cmd_setpass.lua",
     help_usage = "[+!#]setpass nick <ANVÄNDARNAMN> <LÖSENORD>  /  [+!#]setpass nick myself <LÖSENORD>",
-    help_desc = "Anger lösenord på en användare eller på dig själv",
+    help_desc = "Anger lösenordet på en användare eller på dig själv",
 
     ucmd_menu_ct1_0 = { "Användare", "Kontroll", "Ändra", "Lösenord", "efter ANVÄNDARNAMN" },
     ucmd_menu_ct1_1 = { "Om dig", "ändra Lösenord" },

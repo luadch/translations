@@ -4,8 +4,8 @@
     help_usage = "[+!#]disconnect <ANVÄNDARNAMN> <ANLEDNING>",
     help_desc = "Kopplar från en användare",
 
-    user_msg = "Du har kopplats från av: %s  därför att: %s",
-    report_msg = "Användaren %s  har kopplats från av %s  därför att: %s",
+    user_msg = "[ FRÅNKOPPLAD ]--> Du kopplades från av: %s  |  anledning: %s",
+    report_msg = "[ FRÅNKOPPLAD ]--> Användaren  %s  har kopplats från av  %s  |  anledning: %s",
     
     msg_denied1 = "Du har inte behörighet att använda detta kommando.",
     msg_denied2 = "Du kan inte koppla från användare med hög åtkomstnivå.",

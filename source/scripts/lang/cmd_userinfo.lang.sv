@@ -1,9 +1,9 @@
 ﻿return {
 
     msg_denied = "Du har inte behörighet att använda detta kommando.",
-    msg_usage = "Användning: [+!#]userinfo sid|nick|cid <SID>|<ANVÄNDARNAMN>|<CID>",
+    msg_usage = "Användning: [+!#]userinfo sid|nick <SID>|<NICK>",
     msg_off = "Hittade inte användaren.",
-    msg_god = "Användaren har en högre åtkomstnivå än vad du har",
+    msg_god = "Du har inte behörighet att se den här användarens användarinfo",
     
     msg_years = " år, ",
     msg_days = " dagar, ",
@@ -15,7 +15,7 @@
     msg_userinfo = [[
 
     
-=== ANVÄNDARINFO ==============================================================
+=== ANVÄNDARINFO =============================================================================
 
 Användarnamn: %s
 1. Användarnamn: %s
@@ -36,21 +36,21 @@ SSL: %s
 SU: %s
 Bot: %s
 Rank: %s
-Åtkomstnivå: %s
+Åtkomstnivå: %s  [ %s ]
 Registrerad: %s
 
-Skickad: %s
+Skickad:   %s
 Mottaget: %s
 
 Drifttid: %s
 
-============================================================== ANVÄNDARINFO ===
+============================================================================= ANVÄNDARINFO ===
 
   ]],
 
     help_title = "cmd_userinfo.lua",
-    help_usage = "[+!#]userinfo sid|nick|cid <SID>|<ANVÄNDARNAMN>|<CID>",
-    help_desc = "Visar info om en användare med SID, ANVÄNDARNAMN eller CID; inga argument -> om dig själv",
+    help_usage = "[+!#]userinfo sid|nick <SID>|<ANVÄNDARNAMN>",
+    help_desc = "Visar info om en användare efter SID eller ANVÄNDARNAMN; inget argument -> om dig själv",
 
     ucmd_menu_ct1 = { "Om dig", "visa Användarinfo" },
     ucmd_menu_ct2 = { "Visa", "Användarinfo" },

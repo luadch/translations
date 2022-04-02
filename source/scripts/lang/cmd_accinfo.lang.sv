@@ -7,14 +7,16 @@
 
     msg_unknown = "<OKÄNT>",
     msg_online = "användaren är ansluten",
+    msg_keyprint = "valfri Keyprint tillgänglig:",
     msg_accinfo = [[
 
 
-=== KONTOINFO ========================================
+=== KONTOINFO ================================================================
 
     Användarnamn: %s
-    Åtkomstnivå: %s  [ %s ]
     Lösenord: %s
+
+    Åtkomstnivå: %s  [ %s ]
 
     Registrerad av: %s
     Registrerad sedan: %s
@@ -27,20 +29,21 @@
     Användarnamnet är bannat: %s
 
     Hubbnamn: %s
-    Hubbadress: %s
 
-======================================== KONTOINFO ===
+    Hubbadress: %s
+================================================================ KONTOINFO ===
 
    ]],
 
     msg_accinfo2 = [[
 
 
-=== KONTOINFO ========================================
+=== KONTOINFO ================================================================
 
     Användarnamn: %s
-    Åtkomstnivå: %s  [ %s ]
     Lösenord: %s
+
+    Åtkomstnivå: %s  [ %s ]
 
     Registrerad av: %s
     Registrerad sedan: %s
@@ -48,9 +51,9 @@
     Sågs senast: %s
 
     Hubbnamn: %s
-    Hubbadress: %s
 
-======================================== KONTOINFO ===
+    Hubbadress: %s
+================================================================ KONTOINFO ===
 
    ]],
 

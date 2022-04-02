@@ -1,17 +1,18 @@
-﻿return {
+return {
 
     msg_denied = "Du har inte behörighet använda detta kommando.",
     msg_import = "Ett fel uppstog vid importering av tilläggsmodul.",
-    msg_report = "Användaren  %s  registrerades  %s  med åtkomstnivå  %d [ %s ]  Kommentar: %s",
+    msg_report = "[ REGISTRERA ]--> Användaren  %s  registrerade  %s  med åtkomstnivå  %d [ %s ]  Kommentar: %s",
     msg_nocomment = "ingen kommentar definierad",
     msg_level = "Du har inte behörighet att registrera på denna åtkomstnivå.",
     msg_usage = "Användning: [+!#]reg nick <ANVÄNDARNAMN> <ÅTKOMSTNIVÅ> [<KOMMENTAR>] / [+!#]reg desc <ANVÄNDARNAMN> <KOMMENTAR> (en tom rad tar bort nuvarande kommentar)",
     msg_error = "Ett fel uppstod: ",
     msg_ok = "[ REGISTRERA ]--> Användaren registrerades med följande parametrar:  användarnamn: %s  |  lösenord: %s  |  åtkomstnivå: %s [ %s ]  |  kommentar: %s",
+    msg_keyprint = "valfri Keyprint tillgänglig:",
     msg_accinfo = [[
 
 
-=== KONTO ========================================
+=== KONTO ============================================================================
 
     Användarnamn: %s
     Lösenord: %s
@@ -21,7 +22,7 @@
     Hubbnamn: %s
     Hubbadress: %s
 
-======================================== KONTO ===
+============================================================================ KONTO ===
 
         ]],
 

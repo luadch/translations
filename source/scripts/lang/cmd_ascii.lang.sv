@@ -179,8 +179,8 @@ lang.pics.sova = function(user) return [[
  ---------                                                       zz
  ---------     o                                                    zz    _ .-----.      ___ O
  ---------     l l                                                         )          `. ,'         l l     
- ---------     l l                                                     (` '               l        : l         trevliga
- ---------     l l                                     _..-.-.-.-._    )       , )     ,'.        l l                drömmar...
+ ---------     l l                                                     (` '               l        : l         dröm
+ ---------     l l                                     _..-.-.-.-._    )       , )     ,'.        l l                sött...
  ---------     l l ( ' .                     __..- '    ) ) ) ) ) )``-'               . -          l l  
  ---------     l l    `...------''``--'''''    )_______....---      _, -- ' '                 ; l
  ---------     l l__(_..-......____..._,-'_,..____....__..- '  ..________ ..' l l
@@ -466,7 +466,7 @@ lang.pics.omstart = function(user) return [[
                    *    *    *       *    *
                *    *    *       *    *  *    *
 
- ]]..user..[[  måste starta om sin fickkalculator :D
+ ]]..user..[[  måste starta om sin miniräknare :D
 
 
 	]]

@@ -1,4 +1,4 @@
-return {
+﻿return {
 
     msg_denied = "Du får inte använda detta kommando.",
     msg_usage = "Användning: [+!#]usercleaner showall | showexpired | showghosts | delexpired | delghosts | addexception <ANVÄNDARNAMN> | delexception <ANVÄNDARNAMN> | delexceptionall | showexceptions | setdays <DAGAR>",
@@ -84,24 +84,24 @@ return {
     msg_out_ghosts = [[
 
 
-=== ANVÄNDARRENSNING ===========================================================
+=== ANVÄNDARRENSNING ===================================================================================
 
    [ Lista över alla inaktiva frånkopplade användare, sorterade efter hur länge de varit registrerade ]
 
    Inaktiv i dagar:  %s
 
-                  Dagar sedan registrering          Användarnamn skyddat         Användarnamn
-        ---------------------------------------------------------------------------------------------------------------------
+                  Dagar sedan registrering          Användarnamn skyddat         Åtkomstnivå skyddat        Användarnamn
+        -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 %s
-        ---------------------------------------------------------------------------------------------------------------------
-                  Dagar sedan registrering          Användarnamn skyddat         Användarnamn
+        -------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                  Dagar sedan registrering          Användarnamn skyddat         Åtkomstnivå skyddat        Användarnamn
 
    Inaktiv i dagar:  %s
 
    [ Lista över alla inaktiva frånkopplade användare, sorterade efter hur länge de varit registrerade ]
 
-=========================================================== ANVÄNDARRENSNING ===
+=================================================================================== ANVÄNDARRENSNING ===
 
   ]],
 

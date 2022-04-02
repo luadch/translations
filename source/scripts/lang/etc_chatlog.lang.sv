@@ -9,14 +9,15 @@
     help_usageo = "[+!#]history [reset_t_logs|reset_t_exceptions]  / eller: [+!#]history showexceptions",
     help_desco = "radera chattlogg / eller: radera lista över förnekare.",
 
-    msg_denied = "Du har inte behörighet att använda detta kommando.",
+    msg_denied = "[ CHATTLOGG ]--> Du har inte behörighet att använda detta kommando.",
     msg_usage = "Användning: [+!#]history show [<RADER>]  / eller: [+!#]history toggle",
-    msg_leave = "Chattlogg: av",
-    msg_join = "Chattlogg: på",
-    msg_del_log = "Chattloggen är rensad.",
-    msg_del_exceptions = "Listan över Chattlogg-förnekare är rensad.",  -- debug
+    msg_leave = "[ CHATTLOGG ]--> Chattloggsläge: av",
+    msg_join = "[ CHATTLOGG ]--> Chattloggsläge: på",
+    msg_del_log = "[ CHATTLOGG ]--> Chattloggen är rensad.",
+    msg_del_exceptions = "[ CHATTLOGG ]--> Listan över Chattlogg-förnekare är rensad.",
     msg_intro = "De senaste  %s  inläggen:",
-    msg_deniers = "Lista över Chattlogg-förnekare:",
+    msg_deniers = "\nLista över Chattlogg-förnekare:",
+    msg_empty = "[ CHATTLOGG ]--> Loggen är tom",
 
     -- ucmd menu --
     ucmd_menu_toggle = { "Hubb", "etc", "Chattlogg", "Läge", "på\\av" },  -- reg

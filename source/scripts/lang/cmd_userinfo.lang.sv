@@ -39,7 +39,7 @@ Rank: %s
 Åtkomstnivå: %s  [ %s ]
 Registrerad: %s
 
-Skickad:   %s
+Skickat:        %s
 Mottaget: %s
 
 Drifttid: %s

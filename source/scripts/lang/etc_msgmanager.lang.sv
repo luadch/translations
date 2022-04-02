@@ -50,6 +50,14 @@ Användning:
 
 === MEDDELANDEHANTERARE ================================
 
+Blockerade åtkomstnivåer för HUVUDCHATTEN:
+
+%s
+Blockerade åtkomstnivåer för PRIVATCHATTEN:
+
+%s
+Blockerade användare:
+
                Blockeringsläge              Användarnamn
   -------------------------------------------------------------------------------------
 

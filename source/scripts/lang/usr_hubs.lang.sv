@@ -1,4 +1,4 @@
-﻿return {
+return {
 
     msg_invalid = "Ogiltigt hubbantal.",
     msg_max = [[
@@ -19,5 +19,8 @@ Maximalt tillåtna hubbar: %s  |  du är i: %s
 
     report_msg = "[ ANVÄNDARHUBBAR ]--> Användaren:  %s  |  blev bannad i  %s  minuter  |  anledning: hubbegränsningen har överskridits. Hubbar:  %s",
     msg_reason = "Överskrider hubbens användarantal",
+
+    report_msg_redirect = "[ ANVÄNDARHUBBAR ]--> Användaren:  %s  |  omdirigerades  |  anledning: överskridit hubbantalet för användare. Hubbar:  %s",
+    msg_redirect = "[ ANVÄNDARHUBBAR ]--> Du blev omdirigerad på grund av: överskridit hubbantalet för användare. Hubbar: ",
 
 }
